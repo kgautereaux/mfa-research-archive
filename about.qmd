@@ -1,0 +1,29 @@
+---
+title: "About"
+---
+
+## The Program
+
+The MFA in Vocal Pedagogy prepares singer-teachers to integrate voice science, pedagogical history, and reflective teaching practice. Students complete original thesis research as the capstone of their degree — designing studies, collecting data, and producing work that contributes to the field.
+
+## Research Supervision
+
+MFA thesis students are supervised through a three-semester sequence (MFA Thesis I, II, III) that moves from question formation and literature review through methodology, data collection, analysis, and defense.
+
+Research in this program spans a wide range of methodologies:
+
+- **Acoustic analysis** — spectral measures, voice quality indices, pre/post comparisons
+- **Physiological monitoring** — heart rate, respiratory measures, real-time biofeedback
+- **Perceptual evaluation** — expert listener ratings, standardized scales
+- **Survey and interview** — validated instruments, qualitative coding
+- **Mixed methods** — combining physiological, acoustic, and self-report data
+
+## This Archive
+
+The research archive is built with [Quarto](https://quarto.org) and uses [Plotly](https://plotly.com/python/) for interactive figures. All analysis notebooks are rendered with code hidden — the focus is on the data, the figures, and the interpretation.
+
+Analysis pipelines are written in Python. Source code and raw data are maintained separately in the program's working repository.
+
+## Faculty
+
+**K. Gautereaux** — Principal Investigator and thesis supervisor. Teaches History of Vocal Pedagogy, Structure and Function of the Singing Mechanism, and the Vocal Pedagogy Colloquium.

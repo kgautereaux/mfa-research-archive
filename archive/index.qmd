@@ -1,0 +1,15 @@
+---
+title: "Research Archive"
+listing:
+  - id: theses
+    contents: "*/*/index.qmd"
+    type: default
+    sort: "date desc"
+    categories: true
+    fields: [title, author, date, description, categories]
+---
+
+Browse MFA thesis research by year and topic. Each project includes interactive analysis notebooks with figures you can explore.
+
+::: {#theses}
+:::

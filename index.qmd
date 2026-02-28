@@ -1,0 +1,24 @@
+---
+title: "MFA Vocal Pedagogy Research Archive"
+---
+
+## Welcome
+
+This archive hosts interactive research from the MFA Vocal Pedagogy program. Each thesis project is documented with browsable analysis notebooks — complete with interactive figures you can hover, zoom, and explore.
+
+The archive serves three purposes:
+
+1. **For current students:** A living reference for how research moves from data to interpretation. Browse past projects to see methodological choices, analysis techniques, and how findings are communicated.
+
+2. **For alumni:** A persistent home for your thesis research. Your interactive figures and analysis remain accessible after graduation.
+
+3. **For the field:** A window into the kinds of questions vocal pedagogy researchers are asking and the methods they're using to answer them.
+
+## Browse the Archive
+
+Visit the [Research Archive](archive/index.qmd) to explore thesis projects by year and topic.
+
+## Current Projects (2026)
+
+- **Brianna Meikle** — *Examining Performance Anxiety and Co-Regulation in the Vocal Audition.* Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.
+- **Morgan Pay** — *Animal and Phoneme Mimic Exercises and Singing Voice Quality.* Acoustic analysis of how targeted vocal exercises shape the singing voice.

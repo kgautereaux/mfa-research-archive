@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "archive/2026/brianna-meikle/03_descriptive.ipynb"
+
+website:
+  title: "MFA Vocal Pedagogy Research Archive"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: archive/index.qmd
+        text: Research Archive
+      - href: about.qmd
+        text: About
+  sidebar:
+    - title: "Research Archive"
+      style: docked
+      contents:
+        - section: "2026"
+          contents:
+            - text: "Brianna Meikle"
+              href: archive/2026/brianna-meikle/index.qmd
+            - text: "Morgan Pay"
+              href: archive/2026/morgan-pay/index.qmd
+  search: true
+  page-footer:
+    center: "MFA Vocal Pedagogy Research Archive"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    echo: false
+    toc: true
+
+execute:
+  freeze: auto

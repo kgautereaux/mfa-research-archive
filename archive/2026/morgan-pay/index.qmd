@@ -1,0 +1,28 @@
+---
+title: "Animal and Phoneme Mimic Exercises and Singing Voice Quality"
+author: "Morgan Pay"
+date: "2026-02-28"
+description: "Acoustic and perceptual analysis of how vocal exercises derived from animal and phoneme imitations affect singing voice quality."
+categories:
+  - acoustic-analysis
+  - voice-quality
+  - vocal-exercises
+  - MFA-2026
+---
+
+## Abstract
+
+This study investigates how vocal exercises derived from animal imitations (owl, cat, cow) and phoneme imitations (/u/, /ae/, /a/) affect singing voice quality, measured both acoustically and perceptually.
+
+## Study Design
+
+- 5 participants, each recorded in 2 sessions
+- **Session A** — animal mimic protocol: owl, cat, cow imitations → derived exercises → song
+- **Session B** — vowel/phoneme mimic protocol: /u/, /ae/, /a/, /ae/-/u/ → derived exercises → song
+- Target song: "Somewhere Over the Rainbow" — recorded pre-session and after each exercise block
+- Perceptual evaluation: Omni-VES
+- Acoustic measures: AVQI, DSI, CPPS, HNR, shimmer, jitter, f0
+
+## Analysis Notebooks
+
+*Coming soon — analysis notebooks will be added as the project progresses.*

@@ -1,0 +1,70 @@
+---
+title: "Examining Performance Anxiety and Co-Regulation in the Vocal Audition"
+author: "Brianna Meikle"
+date: "2026-02-28"
+description: "Mock audition paradigm with continuous heart rate monitoring of singers and faculty panelists. Explores the physiological gap between performer and evaluator."
+categories:
+  - performance-anxiety
+  - heart-rate
+  - co-regulation
+  - MFA-2026
+---
+
+## Abstract
+
+This study examines performance anxiety in the vocal audition through continuous heart rate monitoring of both singers and faculty panelists. Five singer-participants performed two songs each — one prepared and one assigned 24 hours in advance — for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors throughout the session.
+
+## Study Design
+
+**Participants:**
+
+- 5 singers (3 female, 2 male)
+- 3 faculty panelists
+
+**Protocol:**
+
+Each singer performed a mock audition consisting of:
+
+1. **Pre-singing phase** — time between sync clap and first note
+2. **Song 1** — prepared piece (singer's choice)
+3. **Inter-song gap** — transition between songs
+4. **Song 2** — assigned piece (given 24 hours prior)
+5. **Post-session** — after final note
+
+**Measures:**
+
+- Continuous HR (Polar H10, 1 Hz export)
+- K-MPAI (Kenny Music Performance Anxiety Inventory)
+- MAAQ (Music Audition Anxiety Questionnaire)
+- Post-performance Qualtrics surveys (separate singer/panelist versions)
+
+**Assigned pieces:**
+
+- Female singers: "If You Knew My Story"
+- Male singers: "Shiksa Goddess"
+
+## Analysis Notebooks
+
+| Notebook | Description |
+|----------|-------------|
+| [Heart Rate During the Mock Audition](03_descriptive.ipynb) | Per-session HR time series, phase summaries, and singer–panelist activation gaps |
+
+### Explore the Data
+
+[`explore.ipynb`](explore.ipynb) is an interactive notebook with dropdowns, sliders, and toggles for exploring the HR data yourself. Open it in Google Colab or Jupyter to use the widgets:
+
+- **Session Explorer** — pick a session, toggle subjects on/off, adjust smoothing, switch to activation gap mode
+- **Phase Comparison** — compare any combination of singers and phases, switch between mean HR / SD / min / max
+- **Session Overlay** — overlay multiple singers on one plot, normalize to baseline to compare reactivity shapes
+- **Phase Summary Table** — filter the full summary statistics by session and subject type
+
+## Key Findings (Preliminary)
+
+- Four of five singers showed HR elevations of 16–32 bpm above their pre-singing baseline during performance
+- The singer–panelist activation gap widens as sessions progress, reaching 56–80 bpm during the assigned song
+- One singer (S4) showed a flat HR profile resembling a panelist — her voice teacher was on the panel
+- The assigned piece (less rehearsed, given 24 hrs prior) did not consistently produce higher HR than the prepared piece, but recovery between songs was minimal
+
+## Data Note
+
+HR data was exported from Polar Flow at 1 Hz (one BPM value per second). This is averaged data, not beat-to-beat RR intervals — standard HRV metrics (SDNN, RMSSD, etc.) cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony.
