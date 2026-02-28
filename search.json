@@ -1,0 +1,210 @@
+[
+  {
+    "objectID": "archive/2026/brianna-meikle/03_descriptive.html",
+    "href": "archive/2026/brianna-meikle/03_descriptive.html",
+    "title": "Heart Rate During the Mock Audition",
+    "section": "",
+    "text": "This analysis presents the heart rate data from five mock audition sessions. Each singer performed two songs — one prepared, one assigned 24 hours in advance — for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors. HR was recorded at 1 Hz (one value per second) and aligned to audio using a clap-based sync point.\nParticipants:\nAssigned pieces: Female singers (S2, S3, S4): “If You Knew My Story” | Male singers (S1, S5): “Shiksa Goddess”\nData constraint: HR was exported from Polar Flow at 1 Hz — averaged BPM per second, not beat-to-beat RR intervals. Standard HRV metrics cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony."
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/03_descriptive.html#part-1-individual-session-time-series",
+    "href": "archive/2026/brianna-meikle/03_descriptive.html#part-1-individual-session-time-series",
+    "title": "Heart Rate During the Mock Audition",
+    "section": "Part 1: Individual Session Time Series",
+    "text": "Part 1: Individual Session Time Series\nEach figure shows one audition session with the singer’s HR (red) overlaid with Panelist 1’s HR (purple) and Panelist 3’s HR (blue). Shaded bands indicate audition phases. The x-axis shows elapsed time from the sync clap.\nPanelist baseline context: Panelist 1 runs consistently higher than Panelist 3 across all sessions — typically 98–108 bpm vs. F3’s 75–95 bpm. F1 is also more stable, with less variation across phases. The ~15–20 bpm gap between the two panelists is present in every session, suggesting a stable individual difference in resting autonomic tone rather than a differential response to specific singers.\n\nSession S1 — Singer 1 (M)\nSinger 1 begins around 127 bpm and ramps steadily upward through song 1 (prepared piece), reaching peaks near 160 bpm. There is a brief dip during the inter-song gap, followed by a sharp rise into song 2 (assigned piece), where HR reaches its highest sustained values (~155–158 bpm). Panelist 1 holds steady around 100–108 bpm; Panelist 3 remains lower at 85–95 bpm. Both panelists are flat and stable — the singer’s activation gap above the panelist mean is ~50–60 bpm during performance.\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n\n\nSession S2 — Singer 2 (F)\nSinger 2 shows the steepest ramp-up of any singer — HR climbs from ~120 bpm at the start to peak near 169 bpm during song 1 (prepared). HR drops modestly during the inter-song gap (~145 bpm) but rebounds during song 2 (assigned), reaching ~155 bpm. Panelist 1 starts near 108 bpm and drifts down to ~100 bpm during song 1, then rises back toward 105 bpm in the post-session. Panelist 3 hovers lower in the 75–90 bpm range. The activation gap between singer and panelists widens as the session progresses.\n\n\n                            \n                                            \n\n\n\n\nSession S3 — Singer 3 (F)\nSinger 3 follows a similar arc to Singer 2 — gradual climb through the pre-singing phase, sustained elevation during song 1 (135–165 bpm), partial recovery in the gap, and a plateau during song 2 (~150–158 bpm). Panelist 1 is steady around 101–107 bpm; Panelist 3 is lower at 80–95 bpm. The inter-song gap shows a brief but noticeable HR spike in Panelist 3’s trace — likely anticipatory activation as the panelist prepares for the next performance.\n\n\n                            \n                                            \n\n\n\n\nSession S4 — Singer 4 (F)\nSinger 4 is a clear outlier. HR starts around 80–90 bpm in the pre-singing phase — within the range typically seen in a panelist, not a singer. During song 1, HR rises modestly to ~105–120 bpm, well below the 140–170 bpm range seen in other singers. During song 2, HR actually drops below baseline, reaching the mid-70s. This is the most visually striking session in the dataset: all three traces (singer, F1, F3) occupy the same vertical range (~75–115 bpm), with frequent crossing and intertwining. Panelist 1 holds around 97–103 bpm but spikes to ~113 bpm during the inter-song gap — the highest F1 variability in any session (sd=5.8). Panelist 3 is similarly variable (sd=8.1 during the gap), at times crossing above the singer’s HR.\nImportant context: Panelist 3 had a pre-existing teaching relationship with Singer 4. This likely explains the reduced anxiety response.\n\n\n                            \n                                            \n\n\n\n\nSession S5 — Singer 5 (M)\nSinger 5 shows the highest sustained HR of any participant. Starting from a pre-singing baseline of ~135–140 bpm (already elevated), HR climbs rapidly through song 1 to peaks near 184 bpm. The inter-song gap provides minimal recovery (~165 bpm), and song 2 drives HR to its highest sustained values (~170–180 bpm). Panelist 1 stays in the 96–106 bpm range; Panelist 3 is lower at 73–85 bpm. The widest activation gap in the study occurs here — ~80 bpm between singer and panelist mean during song 2."
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/03_descriptive.html#part-2-cross-session-comparisons",
+    "href": "archive/2026/brianna-meikle/03_descriptive.html#part-2-cross-session-comparisons",
+    "title": "Heart Rate During the Mock Audition",
+    "section": "Part 2: Cross-Session Comparisons",
+    "text": "Part 2: Cross-Session Comparisons\n\nSinger HR by Audition Phase\nThe grouped bar chart below shows each singer’s mean HR (with standard deviation bars) during the four performance phases. The pattern is consistent across four of five singers: HR is lowest during pre-singing, rises sharply for song 1, dips slightly during the inter-song gap, and remains elevated or continues rising into song 2. Singer 4 is the exception — her HR stays in the 88–106 bpm range across all phases, never approaching the 140+ bpm levels seen in the others.\nKey observation: Pre-singing baseline HR is remarkably similar across Singers 1, 2, 3, and 5 (~126–143 bpm), suggesting comparable levels of anticipatory anxiety before singing begins. Singer 4’s pre-singing HR (~91 bpm) is 35–50 bpm lower than the group.\n\n\n                            \n                                            \n\n\n\n\nSinger–Panelist Activation Gap\nThe chart below quantifies the HR difference between each singer and the mean of available panelists (Faculty 1 and Faculty 3) for each phase. The gap reflects how far the singer’s autonomic activation exceeds the panelists’ — a rough index of the anxiety asymmetry in the audition relationship.\nSingers 1, 2, 3, and 5 show gaps of 30–78 bpm, widening as the session progresses. The gap is largest during the inter-song gap and song 2 for most singers — suggesting that the stress of performing the assigned piece (less familiar, less rehearsed) compounds the already elevated state from song 1.\nSinger 4’s gap is negative in most phases — her HR falls below the panelist mean. This is the only singer whose physiological state approximates or drops beneath the panelists’.\n\n\n                            \n                                            \n\n\n\n\nHR Reactivity Profiles\nThe dot-and-line plot below connects each singer’s mean HR across the four phases, making the shape of each stress response visible.\nFour distinct profiles emerge:\n\nSinger 5 — highest absolute HR, steep climb, no recovery between songs. The most pronounced stress response in the study.\nSinger 2 — steep initial climb during song 1, partial recovery in the gap, rebound for song 2. Classic performance anxiety arc.\nSingers 1 and 3 — moderate, steady climb. Singer 1 shows the most gradual escalation; Singer 3 plateaus earlier.\nSinger 4 — flat trajectory near 90 bpm. Modest rise during song 1, return to baseline for song 2. This profile resembles a panelist more than a performer."
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/03_descriptive.html#summary",
+    "href": "archive/2026/brianna-meikle/03_descriptive.html#summary",
+    "title": "Heart Rate During the Mock Audition",
+    "section": "Summary",
+    "text": "Summary\n\n\n\n\n\n\n\n\n\n\n\n\nSinger\nPre-Singing HR\nSong 1 HR\nSong 2 HR\nReactivity (Song 1 − Baseline)\nActivation Gap (Song 2)\nNotes\n\n\n\n\nS1 (M)\n128\n144\n154\n+16\n+56\nSteady climber; flattest assigned-song trace\n\n\nS2 (F)\n128\n160\n147\n+32\n+54\nSteepest ramp-up; HR drops for song 2\n\n\nS3 (F)\n126\n150\n152\n+24\n+59\nModerate, steady; similar to S2 during assigned song\n\n\nS4 (F)\n91\n106\n90\n+15\n−5\nOutlier — pre-existing relationship with F3; HR below panelist mean\n\n\nS5 (M)\n143\n167\n170\n+24\n+80\nHighest absolute HR; no recovery between songs\n\n\n\nAll values are mean HR in bpm. Activation gap = singer mean HR minus mean of Panelist 1 and Panelist 3 during song 2."
+  },
+  {
+    "objectID": "archive/index.html",
+    "href": "archive/index.html",
+    "title": "Research Archive",
+    "section": "",
+    "text": "Browse MFA thesis research by year and topic. Each project includes interactive analysis notebooks with figures you can explore.\n\n\n\n\n\nExamining Performance Anxiety and Co-Regulation in the Vocal Audition\n\n\n\n\n\n\nperformance-anxiety\n\n\nheart-rate\n\n\nco-regulation\n\n\nMFA-2026\n\n\n\nMock audition paradigm with continuous heart rate monitoring of singers and faculty panelists. Explores the physiological gap between performer and evaluator.\n\n\n\n\n\nFeb 28, 2026\n\n\nBrianna Meikle\n\n\n\n\n\n\n\nAnimal and Phoneme Mimic Exercises and Singing Voice Quality\n\n\n\n\n\n\nacoustic-analysis\n\n\nvoice-quality\n\n\nvocal-exercises\n\n\nMFA-2026\n\n\n\nAcoustic and perceptual analysis of how vocal exercises derived from animal and phoneme imitations affect singing voice quality.\n\n\n\n\n\nFeb 28, 2026\n\n\nMorgan Pay\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html",
+    "href": "archive/2026/brianna-meikle/index.html",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "",
+    "text": "This study examines performance anxiety in the vocal audition through continuous heart rate monitoring of both singers and faculty panelists. Five singer-participants performed two songs each — one prepared and one assigned 24 hours in advance — for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors throughout the session.",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#abstract",
+    "href": "archive/2026/brianna-meikle/index.html#abstract",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "",
+    "text": "This study examines performance anxiety in the vocal audition through continuous heart rate monitoring of both singers and faculty panelists. Five singer-participants performed two songs each — one prepared and one assigned 24 hours in advance — for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors throughout the session.",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#study-design",
+    "href": "archive/2026/brianna-meikle/index.html#study-design",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Study Design",
+    "text": "Study Design\nParticipants:\n\n5 singers (3 female, 2 male)\n3 faculty panelists\n\nProtocol:\nEach singer performed a mock audition consisting of:\n\nPre-singing phase — time between sync clap and first note\nSong 1 — prepared piece (singer’s choice)\nInter-song gap — transition between songs\nSong 2 — assigned piece (given 24 hours prior)\nPost-session — after final note\n\nMeasures:\n\nContinuous HR (Polar H10, 1 Hz export)\nK-MPAI (Kenny Music Performance Anxiety Inventory)\nMAAQ (Music Audition Anxiety Questionnaire)\nPost-performance Qualtrics surveys (separate singer/panelist versions)\n\nAssigned pieces:\n\nFemale singers: “If You Knew My Story”\nMale singers: “Shiksa Goddess”",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#analysis-notebooks",
+    "href": "archive/2026/brianna-meikle/index.html#analysis-notebooks",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Analysis Notebooks",
+    "text": "Analysis Notebooks\n\n\n\nNotebook\nDescription\n\n\n\n\nHeart Rate During the Mock Audition\nPer-session HR time series, phase summaries, and singer–panelist activation gaps\n\n\n\n\nExplore the Data\nexplore.ipynb is an interactive notebook with dropdowns, sliders, and toggles for exploring the HR data yourself. Open it in Google Colab or Jupyter to use the widgets:\n\nSession Explorer — pick a session, toggle subjects on/off, adjust smoothing, switch to activation gap mode\nPhase Comparison — compare any combination of singers and phases, switch between mean HR / SD / min / max\nSession Overlay — overlay multiple singers on one plot, normalize to baseline to compare reactivity shapes\nPhase Summary Table — filter the full summary statistics by session and subject type",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#key-findings-preliminary",
+    "href": "archive/2026/brianna-meikle/index.html#key-findings-preliminary",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Key Findings (Preliminary)",
+    "text": "Key Findings (Preliminary)\n\nFour of five singers showed HR elevations of 16–32 bpm above their pre-singing baseline during performance\nThe singer–panelist activation gap widens as sessions progress, reaching 56–80 bpm during the assigned song\nOne singer (S4) showed a flat HR profile resembling a panelist — her voice teacher was on the panel\nThe assigned piece (less rehearsed, given 24 hrs prior) did not consistently produce higher HR than the prepared piece, but recovery between songs was minimal",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#data-note",
+    "href": "archive/2026/brianna-meikle/index.html#data-note",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Data Note",
+    "text": "Data Note\nHR data was exported from Polar Flow at 1 Hz (one BPM value per second). This is averaged data, not beat-to-beat RR intervals — standard HRV metrics (SDNN, RMSSD, etc.) cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony.",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The MFA in Vocal Pedagogy prepares singer-teachers to integrate voice science, pedagogical history, and reflective teaching practice. Students complete original thesis research as the capstone of their degree — designing studies, collecting data, and producing work that contributes to the field."
+  },
+  {
+    "objectID": "about.html#the-program",
+    "href": "about.html#the-program",
+    "title": "About",
+    "section": "",
+    "text": "The MFA in Vocal Pedagogy prepares singer-teachers to integrate voice science, pedagogical history, and reflective teaching practice. Students complete original thesis research as the capstone of their degree — designing studies, collecting data, and producing work that contributes to the field."
+  },
+  {
+    "objectID": "about.html#research-supervision",
+    "href": "about.html#research-supervision",
+    "title": "About",
+    "section": "Research Supervision",
+    "text": "Research Supervision\nMFA thesis students are supervised through a three-semester sequence (MFA Thesis I, II, III) that moves from question formation and literature review through methodology, data collection, analysis, and defense.\nResearch in this program spans a wide range of methodologies:\n\nAcoustic analysis — spectral measures, voice quality indices, pre/post comparisons\nPhysiological monitoring — heart rate, respiratory measures, real-time biofeedback\nPerceptual evaluation — expert listener ratings, standardized scales\nSurvey and interview — validated instruments, qualitative coding\nMixed methods — combining physiological, acoustic, and self-report data"
+  },
+  {
+    "objectID": "about.html#this-archive",
+    "href": "about.html#this-archive",
+    "title": "About",
+    "section": "This Archive",
+    "text": "This Archive\nThe research archive is built with Quarto and uses Plotly for interactive figures. All analysis notebooks are rendered with code hidden — the focus is on the data, the figures, and the interpretation.\nAnalysis pipelines are written in Python. Source code and raw data are maintained separately in the program’s working repository."
+  },
+  {
+    "objectID": "about.html#faculty",
+    "href": "about.html#faculty",
+    "title": "About",
+    "section": "Faculty",
+    "text": "Faculty\nK. Gautereaux — Principal Investigator and thesis supervisor. Teaches History of Vocal Pedagogy, Structure and Function of the Singing Mechanism, and the Vocal Pedagogy Colloquium."
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html",
+    "href": "archive/2026/morgan-pay/index.html",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "",
+    "text": "This study investigates how vocal exercises derived from animal imitations (owl, cat, cow) and phoneme imitations (/u/, /ae/, /a/) affect singing voice quality, measured both acoustically and perceptually.",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html#abstract",
+    "href": "archive/2026/morgan-pay/index.html#abstract",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "",
+    "text": "This study investigates how vocal exercises derived from animal imitations (owl, cat, cow) and phoneme imitations (/u/, /ae/, /a/) affect singing voice quality, measured both acoustically and perceptually.",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html#study-design",
+    "href": "archive/2026/morgan-pay/index.html#study-design",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "Study Design",
+    "text": "Study Design\n\n5 participants, each recorded in 2 sessions\nSession A — animal mimic protocol: owl, cat, cow imitations → derived exercises → song\nSession B — vowel/phoneme mimic protocol: /u/, /ae/, /a/, /ae/-/u/ → derived exercises → song\nTarget song: “Somewhere Over the Rainbow” — recorded pre-session and after each exercise block\nPerceptual evaluation: Omni-VES\nAcoustic measures: AVQI, DSI, CPPS, HNR, shimmer, jitter, f0",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html#analysis-notebooks",
+    "href": "archive/2026/morgan-pay/index.html#analysis-notebooks",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "Analysis Notebooks",
+    "text": "Analysis Notebooks\nComing soon — analysis notebooks will be added as the project progresses.",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MFA Vocal Pedagogy Research Archive",
+    "section": "",
+    "text": "This archive hosts interactive research from the MFA Vocal Pedagogy program. Each thesis project is documented with browsable analysis notebooks — complete with interactive figures you can hover, zoom, and explore.\nThe archive serves three purposes:\n\nFor current students: A living reference for how research moves from data to interpretation. Browse past projects to see methodological choices, analysis techniques, and how findings are communicated.\nFor alumni: A persistent home for your thesis research. Your interactive figures and analysis remain accessible after graduation.\nFor the field: A window into the kinds of questions vocal pedagogy researchers are asking and the methods they’re using to answer them."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "MFA Vocal Pedagogy Research Archive",
+    "section": "",
+    "text": "This archive hosts interactive research from the MFA Vocal Pedagogy program. Each thesis project is documented with browsable analysis notebooks — complete with interactive figures you can hover, zoom, and explore.\nThe archive serves three purposes:\n\nFor current students: A living reference for how research moves from data to interpretation. Browse past projects to see methodological choices, analysis techniques, and how findings are communicated.\nFor alumni: A persistent home for your thesis research. Your interactive figures and analysis remain accessible after graduation.\nFor the field: A window into the kinds of questions vocal pedagogy researchers are asking and the methods they’re using to answer them."
+  },
+  {
+    "objectID": "index.html#browse-the-archive",
+    "href": "index.html#browse-the-archive",
+    "title": "MFA Vocal Pedagogy Research Archive",
+    "section": "Browse the Archive",
+    "text": "Browse the Archive\nVisit the Research Archive to explore thesis projects by year and topic."
+  },
+  {
+    "objectID": "index.html#current-projects-2026",
+    "href": "index.html#current-projects-2026",
+    "title": "MFA Vocal Pedagogy Research Archive",
+    "section": "Current Projects (2026)",
+    "text": "Current Projects (2026)\n\nBrianna Meikle — Examining Performance Anxiety and Co-Regulation in the Vocal Audition. Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.\nMorgan Pay — Animal and Phoneme Mimic Exercises and Singing Voice Quality. Acoustic analysis of how targeted vocal exercises shape the singing voice."
+  }
+]

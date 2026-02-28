@@ -1,0 +1,39 @@
+/* MFA Research Archive — Custom Styles */
+
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #8e44ad;
+}
+
+.navbar {
+  font-weight: 500;
+}
+
+.quarto-title {
+  margin-bottom: 1.5rem;
+}
+
+.quarto-title .title {
+  color: var(--primary-color);
+}
+
+/* Listing cards */
+.quarto-listing .card {
+  border-left: 4px solid var(--accent-color);
+}
+
+/* Phase summary tables */
+table {
+  font-size: 0.9rem;
+}
+
+/* Plotly figure containers */
+.plotly-graph-div {
+  margin: 1rem 0;
+}
+
+/* Categories / tags */
+.quarto-category {
+  background-color: var(--accent-color);
+  color: white;
+}
