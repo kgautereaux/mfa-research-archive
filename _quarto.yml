@@ -7,17 +7,19 @@ project:
     - "archive/2026/brianna-meikle/03_descriptive.ipynb"
 
 website:
-  title: "MFA Vocal Pedagogy Research Archive"
+  title: "K. Gautereaux — Research Archive"
   navbar:
     left:
+      - text: "← kaylagautereaux.com"
+        href: https://kaylagautereaux.com
       - href: index.qmd
         text: Home
       - href: archive/index.qmd
-        text: Research Archive
+        text: Archive
       - href: about.qmd
         text: About
   sidebar:
-    - title: "Research Archive"
+    - title: "Archive"
       style: docked
       contents:
         - section: "2026"
@@ -28,11 +30,11 @@ website:
               href: archive/2026/morgan-pay/index.qmd
   search: true
   page-footer:
-    center: "MFA Vocal Pedagogy Research Archive"
+    center: "[kaylagautereaux.com](https://kaylagautereaux.com) · Research Archive"
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     echo: false
     toc: true
