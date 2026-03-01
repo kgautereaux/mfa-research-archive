@@ -99,9 +99,9 @@ th {
   letter-spacing: 0.03em;
 }
 
-/* Title block metadata — 3 columns when advisors present */
-.quarto-title-meta {
-  grid-template-columns: repeat(3, 1fr);
+/* Title block metadata — 3 columns for Author / Advisors / Published */
+#title-block-header .quarto-title-meta {
+  grid-template-columns: repeat(3, 1fr) !important;
 }
 
 /* Plotly figure containers */
