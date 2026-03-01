@@ -1,0 +1,16 @@
+panelist,singer,source,Appeared confident,Showed signs of anxiety,Felt authentic,Emotionally connected,Emotionally disconnected,Appeared to enjoy performing
+F1,S1,immediate,3.0,4.0,3.0,3.0,3.0,3.0
+F2,S1,immediate,2.0,3.0,3.0,2.0,4.0,2.0
+F3,S1,immediate,3.0,4.0,2.0,1.0,5.0,2.0
+F1,S2,immediate,3.0,4.0,3.0,4.0,4.0,4.0
+F2,S2,immediate,4.0,4.0,4.0,4.0,2.0,4.0
+F3,S2,immediate,2.0,4.0,4.0,1.0,5.0,2.0
+F1,S3,labeled,4.0,2.0,4.0,4.0,2.0,4.0
+F2,S3,labeled,4.0,5.0,4.0,4.0,2.0,4.0
+F3,S3,labeled,4.0,2.0,4.0,4.0,2.0,4.0
+F1,S4,labeled,3.0,4.0,4.0,4.0,4.0,4.0
+F2,S4,labeled,3.0,5.0,4.0,4.0,3.0,4.0
+F3,S4,labeled,4.0,4.0,4.0,4.0,2.0,2.0
+F1,S5,labeled,5.0,2.0,4.0,4.0,2.0,5.0
+F2,S5,labeled,5.0,2.0,4.0,4.0,2.0,4.0
+F3,S5,labeled,4.0,4.0,2.0,1.0,5.0,3.0

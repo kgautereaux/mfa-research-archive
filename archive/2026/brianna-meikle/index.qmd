@@ -1,6 +1,10 @@
 ---
 title: "Examining Performance Anxiety and Co-Regulation in the Vocal Audition"
 author: "Brianna Meikle"
+advisors:
+  - "Kayla Gautereaux"
+  - "Megan Stahl"
+  - "Joshua Gilbert"
 date: "2026-02-28"
 description: "Mock audition paradigm with continuous heart rate monitoring of singers and faculty panelists. Explores the physiological gap between performer and evaluator."
 categories:

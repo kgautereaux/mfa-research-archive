@@ -42,6 +42,8 @@ format:
     css: styles.css
     echo: false
     toc: true
+    template-partials:
+      - title-metadata.html
 
 execute:
   enabled: true

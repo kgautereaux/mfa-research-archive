@@ -99,6 +99,11 @@ th {
   letter-spacing: 0.03em;
 }
 
+/* Title block metadata — 3 columns for Author / Advisors / Published */
+#title-block-header .quarto-title-meta {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
 /* Plotly figure containers */
 .plotly-graph-div {
   margin: 1.5rem 0;

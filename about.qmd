@@ -26,4 +26,6 @@ Analysis pipelines are written in Python. Source code and raw data are maintaine
 
 ## Faculty
 
-**K. Gautereaux** — Principal Investigator and thesis supervisor. Teaches History of Vocal Pedagogy, Structure and Function of the Singing Mechanism, and the Vocal Pedagogy Colloquium.
+- **Kayla Gautereaux** — Thesis Research Advisor
+- **Megan Stahl** — Thesis Research Advisor
+- **Joshua Gilbert** — Thesis Research Advisor

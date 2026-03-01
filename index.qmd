@@ -14,11 +14,17 @@ The archive serves three purposes:
 
 3. **For the field:** A window into the kinds of questions vocal pedagogy researchers are asking and the methods they're using to answer them.
 
+## Thesis Research Advisors
+
+- **Kayla Gautereaux**
+- **Megan Stahl**
+- **Joshua Gilbert**
+
 ## Browse the Archive
 
 Visit the [Research Archive](archive/index.qmd) to explore thesis projects by year and topic.
 
 ## Current Projects (2026)
 
-- **Brianna Meikle** — *Examining Performance Anxiety and Co-Regulation in the Vocal Audition.* Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.
-- **Morgan Pay** — *Animal and Phoneme Mimic Exercises and Singing Voice Quality.* Acoustic analysis of how targeted vocal exercises shape the singing voice.
+- **[Brianna Meikle](archive/2026/brianna-meikle/index.qmd)** — *Examining Performance Anxiety and Co-Regulation in the Vocal Audition.* Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.
+- **[Morgan Pay](archive/2026/morgan-pay/index.qmd)** — *Animal and Phoneme Mimic Exercises and Singing Voice Quality.* Acoustic analysis of how targeted vocal exercises shape the singing voice.

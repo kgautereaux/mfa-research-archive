@@ -1,0 +1,49 @@
+survey_item,item_direction,hr_measure,spearman_rho,p_value,n
+Felt confident,positive,Mean Song HR,0.354,0.559,5
+Felt confident,positive,Peak HR,0.354,0.559,5
+Felt confident,positive,HR Reactivity,0.707,0.182,5
+Felt confident,positive,Activation Gap,0.354,0.559,5
+Felt confident,positive,Mean HR (Prepared),0.354,0.559,5
+Felt confident,positive,Mean HR (Assigned),-0.354,0.559,5
+Felt anxious,negative,Mean Song HR,,,5
+Felt anxious,negative,Peak HR,,,5
+Felt anxious,negative,HR Reactivity,,,5
+Felt anxious,negative,Activation Gap,,,5
+Felt anxious,negative,Mean HR (Prepared),,,5
+Felt anxious,negative,Mean HR (Assigned),,,5
+Felt authentic,positive,Mean Song HR,0.0,1.0,5
+Felt authentic,positive,Peak HR,0.0,1.0,5
+Felt authentic,positive,HR Reactivity,0.316,0.604,5
+Felt authentic,positive,Activation Gap,0.0,1.0,5
+Felt authentic,positive,Mean HR (Prepared),0.0,1.0,5
+Felt authentic,positive,Mean HR (Assigned),-0.632,0.252,5
+Felt safe to express,positive,Mean Song HR,0.0,1.0,5
+Felt safe to express,positive,Peak HR,0.0,1.0,5
+Felt safe to express,positive,HR Reactivity,0.316,0.604,5
+Felt safe to express,positive,Activation Gap,0.0,1.0,5
+Felt safe to express,positive,Mean HR (Prepared),0.0,1.0,5
+Felt safe to express,positive,Mean HR (Assigned),-0.632,0.252,5
+Emotionally connected,positive,Mean Song HR,0.783,0.118,5
+Emotionally connected,positive,Peak HR,0.783,0.118,5
+Emotionally connected,positive,HR Reactivity,0.783,0.118,5
+Emotionally connected,positive,Activation Gap,0.783,0.118,5
+Emotionally connected,positive,Mean HR (Prepared),0.783,0.118,5
+Emotionally connected,positive,Mean HR (Assigned),0.112,0.858,5
+Emotionally disconnected,negative,Mean Song HR,-0.051,0.935,5
+Emotionally disconnected,negative,Peak HR,-0.051,0.935,5
+Emotionally disconnected,negative,HR Reactivity,-0.41,0.493,5
+Emotionally disconnected,negative,Activation Gap,-0.051,0.935,5
+Emotionally disconnected,negative,Mean HR (Prepared),-0.051,0.935,5
+Emotionally disconnected,negative,Mean HR (Assigned),0.667,0.219,5
+Enjoyed performing,positive,Mean Song HR,0.369,0.541,5
+Enjoyed performing,positive,Peak HR,0.369,0.541,5
+Enjoyed performing,positive,HR Reactivity,0.58,0.306,5
+Enjoyed performing,positive,Activation Gap,0.369,0.541,5
+Enjoyed performing,positive,Mean HR (Prepared),0.369,0.541,5
+Enjoyed performing,positive,Mean HR (Assigned),-0.369,0.541,5
+Did not feel satisfaction,negative,Mean Song HR,0.632,0.252,5
+Did not feel satisfaction,negative,Peak HR,0.632,0.252,5
+Did not feel satisfaction,negative,HR Reactivity,0.632,0.252,5
+Did not feel satisfaction,negative,Activation Gap,0.632,0.252,5
+Did not feel satisfaction,negative,Mean HR (Prepared),0.632,0.252,5
+Did not feel satisfaction,negative,Mean HR (Assigned),0.211,0.734,5

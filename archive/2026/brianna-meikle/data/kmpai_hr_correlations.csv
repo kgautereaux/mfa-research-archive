@@ -1,0 +1,19 @@
+anxiety_measure,hr_measure,spearman_rho,p_value,n,direction
+K-MPAI Total,Mean Song HR,0.1,0.873,5,positive
+K-MPAI Total,Peak HR,0.1,0.873,5,positive
+K-MPAI Total,HR Reactivity,-0.3,0.624,5,negative
+K-MPAI Total,Activation Gap,0.1,0.873,5,positive
+K-MPAI Total,Mean HR (Prepared),0.1,0.873,5,positive
+K-MPAI Total,Mean HR (Assigned),0.3,0.624,5,positive
+MAAQ Raw Sum,Mean Song HR,-0.154,0.805,5,negative
+MAAQ Raw Sum,Peak HR,-0.154,0.805,5,negative
+MAAQ Raw Sum,HR Reactivity,0.205,0.741,5,positive
+MAAQ Raw Sum,Activation Gap,-0.154,0.805,5,negative
+MAAQ Raw Sum,Mean HR (Prepared),-0.154,0.805,5,negative
+MAAQ Raw Sum,Mean HR (Assigned),-0.872,0.054,5,negative
+MAAQ Flexibility,Mean Song HR,-0.1,0.873,5,negative
+MAAQ Flexibility,Peak HR,-0.1,0.873,5,negative
+MAAQ Flexibility,HR Reactivity,0.3,0.624,5,positive
+MAAQ Flexibility,Activation Gap,-0.1,0.873,5,negative
+MAAQ Flexibility,Mean HR (Prepared),-0.1,0.873,5,negative
+MAAQ Flexibility,Mean HR (Assigned),-0.3,0.624,5,negative
