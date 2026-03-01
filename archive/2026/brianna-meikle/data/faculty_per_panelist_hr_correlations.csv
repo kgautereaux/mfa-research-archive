@@ -1,0 +1,19 @@
+panelist,survey_item,item_direction,correlated_with,spearman_rho,p_value,n
+F1,Appeared confident,positive,Singer Mean Song HR,0.671,0.215,5
+F1,Showed signs of anxiety,negative,Singer Mean Song HR,-0.577,0.308,5
+F1,Felt authentic,positive,Singer Mean Song HR,0.0,1.0,5
+F1,Emotionally connected,positive,Singer Mean Song HR,0.354,0.559,5
+F1,Emotionally disconnected,negative,Singer Mean Song HR,-0.474,0.42,5
+F1,Appeared to enjoy performing,positive,Singer Mean Song HR,0.671,0.215,5
+F2,Appeared confident,positive,Singer Mean Song HR,0.872,0.054,5
+F2,Showed signs of anxiety,negative,Singer Mean Song HR,-0.616,0.269,5
+F2,Felt authentic,positive,Singer Mean Song HR,0.354,0.559,5
+F2,Emotionally connected,positive,Singer Mean Song HR,0.354,0.559,5
+F2,Emotionally disconnected,negative,Singer Mean Song HR,-0.783,0.118,5
+F2,Appeared to enjoy performing,positive,Singer Mean Song HR,0.354,0.559,5
+F3,Appeared confident,positive,Singer Mean Song HR,-0.112,0.858,5
+F3,Showed signs of anxiety,negative,Singer Mean Song HR,0.0,1.0,5
+F3,Felt authentic,positive,Singer Mean Song HR,-0.289,0.638,5
+F3,Emotionally connected,positive,Singer Mean Song HR,-0.577,0.308,5
+F3,Emotionally disconnected,negative,Singer Mean Song HR,0.577,0.308,5
+F3,Appeared to enjoy performing,positive,Singer Mean Song HR,0.447,0.45,5
