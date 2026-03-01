@@ -18,7 +18,7 @@
     "href": "archive/2026/morgan-pay/analysis.html#each-animal-mimic-invites-a-different-vocal-adjustment",
     "title": "Acoustic Analysis: Animal vs. Vowel Mimic Exercises",
     "section": "Each Animal Mimic Invites a Different Vocal Adjustment",
-    "text": "Each Animal Mimic Invites a Different Vocal Adjustment\nThe strongest finding in this study: the three animal mimics do not all work the same way. Each one changes the voice on different acoustic dimensions compared to its vowel counterpart.\nThe heatmap below shows Cohen’s d effect sizes for animal vs. vowel mimics, broken out by pair. Blue = animal mimic is higher; red = vowel mimic is higher. Hover for confidence intervals.\n\n\n\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n\nFigure 1\n\n\n\n\nReading the heatmap: Each cell shows the standardized difference (Cohen’s d) between the animal mimic and its vowel counterpart. Positive values (blue) mean the animal mimic scored higher; negative values (red) mean the vowel mimic scored higher.\nThree distinct acoustic signatures emerge:\n\nCow changes phonation: HNR d = +3.91, f0 SD d = −2.55, lower perturbation across the board. The cow sound invites a fundamentally different way of using the voice compared to singing /ɑ/ — more modal, more stable, lower pitch.\nCat changes resonance and spectrum: spectral SD d = +3.21, F2 d = +2.78, CoG d = +1.93. The meow concentrates energy in the upper spectrum in a way that singing /æ/ does not.\nOwl changes intensity and stability: intensity d = +2.57, shimmer dB d = −2.13. The owl hoo is essentially a more projected, more stable version of the vowel.\n\nThis is the most robust finding in the study. The effect sizes are very large (d &gt; 2 for multiple measures across all three pairs) and consistent within pairs."
+    "text": "Each Animal Mimic Invites a Different Vocal Adjustment\nThe strongest finding in this study: the three animal mimics do not all work the same way. Each one changes the voice on different acoustic dimensions compared to its vowel counterpart.\nThe heatmap below shows Cohen’s d effect sizes for animal vs. vowel mimics, broken out by pair. Blue = animal mimic is higher; red = vowel mimic is higher. Hover for confidence intervals.\n\n\n\n\n\n                            \n                                            \n\n\n\nFigure 1\n\n\n\n\nReading the heatmap: Each cell shows the standardized difference (Cohen’s d) between the animal mimic and its vowel counterpart. Positive values (blue) mean the animal mimic scored higher; negative values (red) mean the vowel mimic scored higher.\nThree distinct acoustic signatures emerge:\n\nCow changes phonation: HNR d = +3.91, f0 SD d = −2.55, lower perturbation across the board. The cow sound invites a fundamentally different way of using the voice compared to singing /ɑ/ — more modal, more stable, lower pitch.\nCat changes resonance and spectrum: spectral SD d = +3.21, F2 d = +2.78, CoG d = +1.93. The meow concentrates energy in the upper spectrum in a way that singing /æ/ does not.\nOwl changes intensity and stability: intensity d = +2.57, shimmer dB d = −2.13. The owl hoo is essentially a more projected, more stable version of the vowel.\n\nThis is the most robust finding in the study. The effect sizes are very large (d &gt; 2 for multiple measures across all three pairs) and consistent within pairs."
   },
   {
     "objectID": "archive/2026/morgan-pay/analysis.html#transfer-from-mimic-to-exercise",
@@ -89,6 +89,13 @@
     "title": "MFA Vocal Pedagogy Research Archive",
     "section": "",
     "text": "This archive hosts interactive research from the MFA Vocal Pedagogy program. Each thesis project is documented with browsable analysis notebooks — complete with interactive figures you can hover, zoom, and explore.\nThe archive serves three purposes:\n\nFor current students: A living reference for how research moves from data to interpretation. Browse past projects to see methodological choices, analysis techniques, and how findings are communicated.\nFor alumni: A persistent home for your thesis research. Your interactive figures and analysis remain accessible after graduation.\nFor the field: A window into the kinds of questions vocal pedagogy researchers are asking and the methods they’re using to answer them."
+  },
+  {
+    "objectID": "index.html#thesis-research-advisors",
+    "href": "index.html#thesis-research-advisors",
+    "title": "MFA Vocal Pedagogy Research Archive",
+    "section": "Thesis Research Advisors",
+    "text": "Thesis Research Advisors\n\nKayla Gautereaux\nMegan Stahl\nJoshua Gilbert"
   },
   {
     "objectID": "index.html#browse-the-archive",
@@ -164,7 +171,7 @@
     "href": "archive/2026/morgan-pay/index.html#advisors",
     "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
     "section": "Advisors",
-    "text": "Advisors\n\nKayla Gautereaux — Vocal Pedagogy Research Advisor\nIan Howell — Analysis Advisor\nMorgan Stahl — Thesis Advisor\nJosh Gilbert — Thesis Advisor",
+    "text": "Advisors\n\nKayla Gautereaux — Thesis Research Advisor\nMegan Stahl — Thesis Research Advisor\nJoshua Gilbert — Thesis Research Advisor\nIan Howell — Analysis Advisor",
     "crumbs": [
       "2026",
       "Morgan Pay"
@@ -261,6 +268,17 @@
     ]
   },
   {
+    "objectID": "archive/2026/brianna-meikle/index.html#advisors",
+    "href": "archive/2026/brianna-meikle/index.html#advisors",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Advisors",
+    "text": "Advisors\n\nKayla Gautereaux — Thesis Research Advisor\nMegan Stahl — Thesis Research Advisor\nJoshua Gilbert — Thesis Research Advisor",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
     "objectID": "archive/2026/brianna-meikle/index.html#data-note",
     "href": "archive/2026/brianna-meikle/index.html#data-note",
     "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
@@ -276,7 +294,7 @@
     "href": "archive/index.html",
     "title": "Research Archive",
     "section": "",
-    "text": "Browse MFA thesis research by year and topic. Each project includes interactive analysis notebooks with figures you can explore.\n\n\n\n\n\nExamining Performance Anxiety and Co-Regulation in the Vocal Audition\n\n\n\n\n\n\nperformance-anxiety\n\n\nheart-rate\n\n\nco-regulation\n\n\nMFA-2026\n\n\n\nMock audition paradigm with continuous heart rate monitoring of singers and faculty panelists. Explores the physiological gap between performer and evaluator.\n\n\n\n\n\nFeb 28, 2026\n\n\nBrianna Meikle\n\n\n\n\n\n\n\nAnimal and Phoneme Mimic Exercises and Singing Voice Quality\n\n\n\n\n\n\nacoustic-analysis\n\n\nvoice-quality\n\n\nvocal-exercises\n\n\nMFA-2026\n\n\n\nAcoustic and perceptual analysis of how vocal exercises derived from animal and phoneme imitations affect singing voice quality.\n\n\n\n\n\nFeb 28, 2026\n\n\nMorgan Pay\n\n\n\n\n\n\nNo matching items"
+    "text": "Browse MFA thesis research by year and topic. Each project includes interactive analysis notebooks with figures you can explore.\n\n\n\n\n\nExamining Performance Anxiety and Co-Regulation in the Vocal Audition\n\n\n\nperformance-anxiety\n\nheart-rate\n\nco-regulation\n\nMFA-2026\n\n\n\nMock audition paradigm with continuous heart rate monitoring of singers and faculty panelists. Explores the physiological gap between performer and evaluator.\n\n\n\n\n\nFeb 28, 2026\n\n\nBrianna Meikle\n\n\n\n\n\n\n\nAnimal and Phoneme Mimic Exercises and Singing Voice Quality\n\n\n\nacoustic-analysis\n\nvoice-quality\n\nvocal-exercises\n\nMFA-2026\n\n\n\nAcoustic and perceptual analysis of how vocal exercises derived from animal and phoneme imitations affect singing voice quality.\n\n\n\n\n\nFeb 28, 2026\n\n\nMorgan Pay\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "archive/2026/brianna-meikle/03_descriptive.html",
