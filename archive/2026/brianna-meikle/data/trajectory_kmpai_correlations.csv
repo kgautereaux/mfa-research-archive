@@ -1,0 +1,11 @@
+trajectory_feature,anxiety_measure,spearman_rho,p_value,n
+Slope (bpm/s),K-MPAI,0.9,0.037,5
+Slope (bpm/s),MAAQ Flex.,-0.9,0.037,5
+AUC (norm.),K-MPAI,0.1,0.873,5
+AUC (norm.),MAAQ Flex.,-0.1,0.873,5
+Time to Peak (s),K-MPAI,0.3,0.624,5
+Time to Peak (s),MAAQ Flex.,-0.3,0.624,5
+HR Range (bpm),K-MPAI,0.9,0.037,5
+HR Range (bpm),MAAQ Flex.,-0.9,0.037,5
+Recovery (bpm),K-MPAI,0.7,0.188,5
+Recovery (bpm),MAAQ Flex.,-0.7,0.188,5

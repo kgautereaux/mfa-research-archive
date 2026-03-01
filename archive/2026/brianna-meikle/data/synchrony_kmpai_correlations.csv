@@ -1,0 +1,6 @@
+comparison,spearman_rho,p_value,n
+K-MPAI vs Mean Synchrony (all panelists),-0.1,0.873,5
+K-MPAI vs Sync with F1,-0.3,0.624,5
+K-MPAI vs Sync with F2,,,5
+K-MPAI vs Sync with F3,-0.3,0.624,5
+MAAQ Flex vs Mean Synchrony,0.1,0.873,5
