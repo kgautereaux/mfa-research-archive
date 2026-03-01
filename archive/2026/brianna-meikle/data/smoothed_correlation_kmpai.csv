@@ -1,0 +1,6 @@
+comparison,spearman_rho,p_value,n
+K-MPAI vs Mean Smoothed r (all panelists),0.0,1.0,5
+K-MPAI vs Smoothed r with F1,0.3,0.624,5
+K-MPAI vs Smoothed r with F2,0.2,0.747,5
+K-MPAI vs Smoothed r with F3,-0.1,0.873,5
+MAAQ Flex vs Mean Smoothed r,0.0,1.0,5
