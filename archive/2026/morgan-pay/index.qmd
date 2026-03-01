@@ -21,8 +21,18 @@ This study investigates how vocal exercises derived from animal imitations (owl,
 - **Session B** — vowel/phoneme mimic protocol: /u/, /ae/, /a/, /ae/-/u/ → derived exercises → song
 - Target song: "Somewhere Over the Rainbow" — recorded pre-session and after each exercise block
 - Perceptual evaluation: Omni-VES
-- Acoustic measures: AVQI, DSI, CPPS, HNR, shimmer, jitter, f0
+- Acoustic measures: f0, jitter, shimmer, HNR, intensity (calibrated), CoG, spectral SD, skewness, kurtosis, CPPS, H1-H2, F1, F2, alpha ratio, L/H ratio, LTAS slope/tilt, AVQI
 
 ## Analysis Notebooks
 
-*Coming soon — analysis notebooks will be added as the project progresses.*
+| Notebook | Description |
+|----------|-------------|
+| [Acoustic Analysis: Animal vs. Vowel Mimic Exercises](analysis.ipynb) | Effect sizes by pair, mimic-to-exercise transfer, rep-by-rep trajectories, carry-over, VES correlations, AVQI |
+
+## Key Findings (Preliminary)
+
+- Each animal mimic invites a different vocal adjustment: cow changes phonation, cat changes resonance/spectrum, owl changes intensity/stability
+- Effect sizes are very large (d > 2 for multiple measures across all three pairs)
+- Transfer from mimic to exercise is partial and pair-dependent — cat spectral features transfer best
+- Neither protocol harms overall voice quality (AVQI stable or improved)
+- Perceived quality (VES) is vowel-dependent and functions more as a task demand scale than a voice quality scale

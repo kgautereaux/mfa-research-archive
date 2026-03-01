@@ -43,27 +43,20 @@ Each singer performed a mock audition consisting of:
 - Female singers: "If You Knew My Story"
 - Male singers: "Shiksa Goddess"
 
-## Analysis Notebooks
+## Analysis
 
-| Notebook | Description |
-|----------|-------------|
-| [Heart Rate During the Mock Audition](03_descriptive.ipynb) | Per-session HR time series, phase summaries, and singer–panelist activation gaps |
-
-### Explore the Data
-
-[`explore.ipynb`](explore.ipynb) is an interactive notebook with dropdowns, sliders, and toggles for exploring the HR data yourself. Open it in Google Colab or Jupyter to use the widgets:
-
-- **Session Explorer** — pick a session, toggle subjects on/off, adjust smoothing, switch to activation gap mode
-- **Phase Comparison** — compare any combination of singers and phases, switch between mean HR / SD / min / max
-- **Session Overlay** — overlay multiple singers on one plot, normalize to baseline to compare reactivity shapes
-- **Phase Summary Table** — filter the full summary statistics by session and subject type
+| Section | Description |
+|---------|-------------|
+| [Heart Rate During the Mock Audition](03_descriptive.ipynb) | Per-session HR time series, cross-session comparisons, same-song overlays, K-MPAI results, and interpretive notes |
 
 ## Key Findings (Preliminary)
 
 - Four of five singers showed HR elevations of 16–32 bpm above their pre-singing baseline during performance
 - The singer–panelist activation gap widens as sessions progress, reaching 56–80 bpm during the assigned song
-- One singer (S4) showed a flat HR profile resembling a panelist — her voice teacher was on the panel
+- One singer (S4) showed a flat HR profile resembling a panelist — her voice teacher was on the panel, producing the strongest evidence of physiological coupling in the dataset
 - The assigned piece (less rehearsed, given 24 hrs prior) did not consistently produce higher HR than the prepared piece, but recovery between songs was minimal
+- 73% of the BoCo singer population (19/26) scored above the clinical threshold on the K-MPAI
+- Panelists show anticipatory activation (HR ramp-ups) in the seconds before song 2 begins — their physiology is not inert during the audition
 
 ## Data Note
 

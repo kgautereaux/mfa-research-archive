@@ -1,0 +1,6 @@
+singer,kmpai_total,kmpai_missing_items,kmpai_clinical,maaq_raw_sum,maaq_flexibility
+S1,126,0,True,23,31
+S2,111,0,True,33,35
+S3,144,0,True,28,26
+S4,159,0,True,29,21
+S5,174,0,True,23,17

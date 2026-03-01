@@ -5,6 +5,10 @@ project:
     - "*.qmd"
     - "**/*.qmd"
     - "archive/2026/brianna-meikle/03_descriptive.ipynb"
+    - "archive/2026/morgan-pay/analysis.ipynb"
+  resources:
+    - "!**/*.ipynb"
+    - "!**/data/"
 
 website:
   title: "K. Gautereaux — Research Archive"

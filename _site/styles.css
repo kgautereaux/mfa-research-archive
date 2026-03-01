@@ -1,39 +1,121 @@
-/* MFA Research Archive — Custom Styles */
+/* MFA Research Archive — styled to complement kaylagautereaux.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #8e44ad;
+  --primary-color: #1a1a1a;
+  --text-color: #333;
+  --text-muted: #666;
+  --accent-color: #555;
+  --border-color: #e0e0e0;
+  --bg-light: #fafafa;
 }
 
-.navbar {
-  font-weight: 500;
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-color);
+  letter-spacing: 0.01em;
 }
+
+/* Navbar — clean, minimal */
+.navbar {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-brand {
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 400;
+  color: var(--primary-color);
+  letter-spacing: 0.02em;
+}
+
+h1 { font-weight: 300; }
 
 .quarto-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .quarto-title .title {
   color: var(--primary-color);
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration-color: var(--border-color);
+}
+
+a:hover {
+  text-decoration-color: var(--primary-color);
 }
 
 /* Listing cards */
 .quarto-listing .card {
-  border-left: 4px solid var(--accent-color);
-}
-
-/* Phase summary tables */
-table {
-  font-size: 0.9rem;
-}
-
-/* Plotly figure containers */
-.plotly-graph-div {
-  margin: 1rem 0;
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 0;
 }
 
 /* Categories / tags */
 .quarto-category {
-  background-color: var(--accent-color);
-  color: white;
+  background-color: var(--bg-light);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Sidebar */
+.sidebar-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+}
+
+/* Tables */
+table {
+  font-size: 0.9rem;
+}
+
+th {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+/* Plotly figure containers */
+.plotly-graph-div {
+  margin: 1.5rem 0;
+}
+
+/* Footer */
+.nav-footer {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Back-to-main-site link */
+.back-to-site a {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
 }
