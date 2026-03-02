@@ -4,7 +4,29 @@
     "href": "archive/2026/morgan-pay/index.html",
     "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
     "section": "",
-    "text": "This analysis presents acoustic and perceptual data from a study comparing vocal exercises derived from animal imitations (owl, cat, cow) with exercises derived from the corresponding vowel imitations (/u/, /æ/, /ɑ/). Five participants each completed two sessions — one animal-based, one vowel-based — with acoustic measures extracted from mimics, exercises, and a target song (“Somewhere Over the Rainbow”) recorded at baseline and after each exercise block.\nAcoustic measures: f0, jitter, shimmer, HNR, intensity (calibrated), spectral moments (CoG, spectral SD, skewness, kurtosis), CPPS, H1-H2, F1, F2, alpha ratio, L/H ratio, LTAS slope/tilt, AVQI.\nPerceptual measure: Omni-VES (Vocal Effort Scale), rated by researcher and participant self-assessment.\nStatistical approach: Cohen’s d with bootstrapped 95% CIs, Spearman rank correlations. Emphasis on effect sizes and patterns over p-values given n = 5.\nFormant caveat: Formant estimation is unreliable when f0 exceeds ~350 Hz. Owl mimics (~570 Hz) and “where” targets (~520 Hz) are flagged; cat mimics (~430 Hz) are borderline; cow mimics (~320 Hz) and “some” targets (~260 Hz) are reliable.",
+    "text": "This study compares vocal exercises derived from animal imitations (owl, cat, cow) with exercises derived from the corresponding vowel imitations (/u/, /ae/, /a/) to investigate how each affects singing voice quality. Five participants each completed two sessions: one animal-based, one vowel-based. Acoustic measures were extracted from mimics, exercises, and a target song (“Somewhere Over the Rainbow”) recorded at baseline and after each exercise block. Perceptual effort was rated using the Omni-VES.\nThe central finding is that each animal-vowel pair works through a different acoustic mechanism: cow changes phonation, cat changes resonance, owl changes intensity. These signatures partially transfer from mimics into exercises, and the type of exercise (not cumulative warm-up) predicts the acoustic profile of subsequent singing.",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html#abstract",
+    "href": "archive/2026/morgan-pay/index.html#abstract",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "",
+    "text": "This study compares vocal exercises derived from animal imitations (owl, cat, cow) with exercises derived from the corresponding vowel imitations (/u/, /ae/, /a/) to investigate how each affects singing voice quality. Five participants each completed two sessions: one animal-based, one vowel-based. Acoustic measures were extracted from mimics, exercises, and a target song (“Somewhere Over the Rainbow”) recorded at baseline and after each exercise block. Perceptual effort was rated using the Omni-VES.\nThe central finding is that each animal-vowel pair works through a different acoustic mechanism: cow changes phonation, cat changes resonance, owl changes intensity. These signatures partially transfer from mimics into exercises, and the type of exercise (not cumulative warm-up) predicts the acoustic profile of subsequent singing.",
+    "crumbs": [
+      "2026",
+      "Morgan Pay"
+    ]
+  },
+  {
+    "objectID": "archive/2026/morgan-pay/index.html#key-findings",
+    "href": "archive/2026/morgan-pay/index.html#key-findings",
+    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\n\n\n\n\nFinding\nConfidence\n\n\n\n\nThe three animal-vowel pairs work through different acoustic mechanisms\nHigh\n\n\nAnimal mimics produce acoustically distinct vocalizations vs. vowel mimics (d &gt; 1.5 on multiple measures per pair)\nHigh\n\n\nExercises partially inherit the mimic’s acoustic signature (cat spectral features transfer best)\nModerate\n\n\nNeither protocol harms overall voice quality (AVQI stable or improved)\nHigh\n\n\nThe acoustic correlates of perceived effort are vowel-dependent\nModerate\n\n\nCarry-over into singing is exercise-type-specific, not dose-dependent (cow/a most distinctive on Tier 1 measures)\nExploratory\n\n\nCow H1-H2 diverges across exercise reps (animal breathier, vowel more pressed)\nExploratory\n\n\n\n\nLimitations\n\nSample size (n = 5): Effect sizes are unstable, confidence intervals wide. Findings describe these five singers, not a generalizable population.\nOrder effects: Cannot fully separate condition effects from session-order effects.\nFormant reliability: Unreliable at f0 &gt; 350 Hz (owl mimics, “where” targets).\nSingle rater: VES rated by one researcher without inter-rater reliability.\n\n\nAcoustic measures: f0, jitter, shimmer, HNR, intensity (calibrated), spectral moments (CoG, spectral SD, skewness, kurtosis), CPPS, H1-H2, F1, F2, alpha ratio, L/H ratio, LTAS slope/tilt, AVQI.\nPerceptual measure: Omni-VES (Vocal Effort Scale), rated by researcher and participant self-assessment.\nStatistical approach: Cohen’s d with bootstrapped 95% CIs, Spearman rank correlations. Emphasis on effect sizes and patterns over p-values given n = 5.\nFormant caveat: Formant estimation is unreliable when f0 exceeds ~350 Hz. Owl mimics (~570 Hz) and “where” targets (~520 Hz) are flagged; cat mimics (~430 Hz) are borderline; cow mimics (~320 Hz) and “some” targets (~260 Hz) are reliable.",
     "crumbs": [
       "2026",
       "Morgan Pay"
@@ -235,7 +257,29 @@
     "href": "archive/2026/brianna-meikle/index.html",
     "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
     "section": "",
-    "text": "This analysis presents the heart rate data from five mock audition sessions. Each singer performed two songs – one prepared, one assigned 24 hours in advance – for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors. HR was recorded at 1 Hz (one value per second) and aligned to audio using a clap-based sync point.\nParticipants:\nAssigned pieces: Female singers (S2, S3, S4): “If You Knew My Story” | Male singers (S1, S5): “Shiksa Goddess”\nData constraint: HR was exported from Polar Flow at 1 Hz – averaged BPM per second, not beat-to-beat RR intervals. Standard HRV metrics cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony.\nMethodological notes: - All faculty panelists were seated throughout all auditions. No standing, walking, or postural changes occurred. All panelist HR variations reflect genuine autonomic responses, not movement artifacts. - Panelist 1 wore a facial mask for the duration of the experiment to avoid sharing or receiving illness. This may have contributed slightly to Panelist 1’s elevated baseline HR (~100 bpm), though the consistency across all five sessions suggests a stable individual difference rather than a masking artifact.",
+    "text": "Five singers performed mock auditions for a three-person faculty panel while all eight subjects wore Polar H10 heart rate monitors. Each singer sang two pieces: one prepared (singer’s choice) and one assigned 24 hours in advance. HR was recorded continuously at 1 Hz and aligned to audio recordings for phase-level analysis. Pre-screening captured trait anxiety (K-MPAI, MAAQ) and post-performance surveys captured subjective experience from both singer and panelist perspectives.\nThis analysis traces the physiological arc of each audition, compares singer and panelist activation patterns, examines whether trait anxiety predicts HR reactivity, and explores interpersonal synchrony between singers and their evaluators.",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#abstract",
+    "href": "archive/2026/brianna-meikle/index.html#abstract",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "",
+    "text": "Five singers performed mock auditions for a three-person faculty panel while all eight subjects wore Polar H10 heart rate monitors. Each singer sang two pieces: one prepared (singer’s choice) and one assigned 24 hours in advance. HR was recorded continuously at 1 Hz and aligned to audio recordings for phase-level analysis. Pre-screening captured trait anxiety (K-MPAI, MAAQ) and post-performance surveys captured subjective experience from both singer and panelist perspectives.\nThis analysis traces the physiological arc of each audition, compares singer and panelist activation patterns, examines whether trait anxiety predicts HR reactivity, and explores interpersonal synchrony between singers and their evaluators.",
+    "crumbs": [
+      "2026",
+      "Brianna Meikle"
+    ]
+  },
+  {
+    "objectID": "archive/2026/brianna-meikle/index.html#key-findings",
+    "href": "archive/2026/brianna-meikle/index.html#key-findings",
+    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\n\n\n\n\nFinding\nConfidence\n\n\n\n\nSingers show HR elevations of 16-32 bpm above baseline during performance\nHigh\n\n\nThe singer-panelist activation gap widens across the audition, reaching 56-80 bpm during the assigned song\nHigh\n\n\n73% of the BoCo singer population (19/26) scored above the clinical threshold on the K-MPAI\nHigh\n\n\nK-MPAI does not predict HR reactivity at n = 5: the highest-anxiety singer (S4) showed the flattest HR profile\nNoted\n\n\nS4’s flat HR profile coincides with her voice teacher being on the panel, producing the strongest evidence of physiological coupling\nExploratory\n\n\nPanelists show anticipatory HR ramp-ups before Song 2 begins\nExploratory\n\n\nFaculty perceive higher-HR singers as more confident (inverse of what might be expected)\nExploratory\n\n\nWindowed cross-correlation and wavelet coherence detect transient synchrony episodes, but no pair shows sustained coupling\nExploratory\n\n\n\n\nLimitations\n\nSample size (n = 5 singers, 3 panelists): Descriptive and exploratory, not generalizable.\n1 Hz HR data: Exported from Polar Flow as averaged BPM per second, not beat-to-beat RR intervals. Standard HRV metrics cannot be computed.\nNo pianist: Singers performed to tracks only (unintentional but serves as a control for accompanist effects).\nDifferent assigned pieces by gender: Limits cross-gender comparison on the assigned song.\n\n\nThis analysis presents the heart rate data from five mock audition sessions. Each singer performed two songs, one prepared and one assigned 24 hours in advance, for a three-person faculty panel. All subjects wore Polar H10 heart rate monitors. HR was recorded at 1 Hz (one value per second) and aligned to audio using a clap-based sync point.\nParticipants:\n\nSinger 1 (S1, M)\nSinger 2 (S2, F)\nSinger 3 (S3, F)\nSinger 4 (S4, F)\nSinger 5 (S5, M)\nPanelist 1 (F1), Panelist 2 (F2), Panelist 3 (F3): HR data available for all 5 sessions\n\nAssigned pieces: Female singers (S2, S3, S4): “If You Knew My Story” | Male singers (S1, S5): “Shiksa Goddess”\nData constraint: HR was exported from Polar Flow at 1 Hz, averaged BPM per second, not beat-to-beat RR intervals. Standard HRV metrics cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony.\nMethodological notes: - All faculty panelists were seated throughout all auditions. No standing, walking, or postural changes occurred. All panelist HR variations reflect genuine autonomic responses, not movement artifacts. - Panelist 1 wore a facial mask for the duration of the experiment to avoid sharing or receiving illness. This may have contributed slightly to Panelist 1’s elevated baseline HR (~100 bpm), though the consistency across all five sessions suggests a stable individual difference rather than a masking artifact.",
     "crumbs": [
       "2026",
       "Brianna Meikle"
