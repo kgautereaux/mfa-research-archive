@@ -91,13 +91,6 @@
     "text": "Summary\n\n\n\n\n\n\n\n\nFinding\nConfidence\nEvidence\n\n\n\n\nThe three animal-vowel pairs work through different acoustic mechanisms\nHigh\nVery large effect sizes (d &gt; 2 for multiple measures across all three pairs), consistent within pairs\n\n\nAnimal mimics produce acoustically distinct vocalizations vs. vowel mimics\nHigh\nEvery pair shows at least two measures with d &gt; 1.5\n\n\nExercises partially inherit the mimic’s acoustic signature\nModerate\nTransfer is real but attenuated and pair-dependent; Cat spectral features transfer best\n\n\nNeither protocol harms overall voice quality\nHigh\nAVQI stable or improved pre-to-post in both conditions\n\n\nThe acoustic correlates of perceived effort are vowel-dependent\nModerate\nDifferent acoustic dimensions predict VES for each vowel; no single “effort profile” across conditions\n\n\nCow H1-H2 diverges across exercise reps\nExploratory\nVisible in trajectories but may be driven by 1–2 participants at n = 5\n\n\nCarry-over into “Somewhere” is not clearly detectable at this sample size\nNoted\nIndividual variability overwhelms group signal; perceptual improvement perceived by researcher\n\n\n\n\nLimitations\n\nSample size (n = 5): Effect sizes are unstable, confidence intervals wide. Findings describe these five singers, not a generalizable population.\nOrder effects: Cannot fully separate condition effects from session-order effects.\nFormant reliability: Unreliable at f0 &gt; 350 Hz (owl mimics, “where” targets).\nSingle rater: VES rated by one researcher without inter-rater reliability.\n\nThis study is designed as a proof-of-concept and pattern identification, not as a definitive test of the hypothesis. The acoustic signatures are robust; the generalizability awaits replication with a larger sample."
   },
   {
-    "objectID": "archive/2026/morgan-pay/analysis.html#advisors",
-    "href": "archive/2026/morgan-pay/analysis.html#advisors",
-    "title": "Acoustic Analysis: Animal vs. Vowel Mimic Exercises",
-    "section": "Advisors",
-    "text": "Advisors\n\nKayla Gautereaux — Vocal Pedagogy Research Advisor\nIan Howell — Analysis Advisor\nMegan Stahl — Thesis Advisor\nJosh Gilbert — Thesis Advisor"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "MFA Vocal Pedagogy Research Archive",
@@ -182,17 +175,6 @@
     "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
     "section": "Key Findings (Preliminary)",
     "text": "Key Findings (Preliminary)\n\nEach animal mimic invites a different vocal adjustment: cow changes phonation, cat changes resonance/spectrum, owl changes intensity/stability\nEffect sizes are very large (d &gt; 2 for multiple measures across all three pairs)\nTransfer from mimic to exercise is partial and pair-dependent — cat spectral features transfer best\nNeither protocol harms overall voice quality (AVQI stable or improved)\nThe acoustic correlates of perceived vocal effort (VES) are vowel-dependent — no single acoustic profile predicts effort across all conditions",
-    "crumbs": [
-      "2026",
-      "Morgan Pay"
-    ]
-  },
-  {
-    "objectID": "archive/2026/morgan-pay/index.html#advisors",
-    "href": "archive/2026/morgan-pay/index.html#advisors",
-    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
-    "section": "Advisors",
-    "text": "Advisors\n\nKayla Gautereaux — Vocal Pedagogy Research Advisor\nIan Howell — Analysis Advisor\nMegan Stahl — Thesis Advisor\nJosh Gilbert — Thesis Advisor",
     "crumbs": [
       "2026",
       "Morgan Pay"
