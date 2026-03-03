@@ -2,7 +2,7 @@
 title: "Research Archive"
 listing:
   - id: theses
-    contents: "*/*/index.qmd"
+    contents: "*/*/index.ipynb"
     type: default
     sort: "date desc"
     categories: true

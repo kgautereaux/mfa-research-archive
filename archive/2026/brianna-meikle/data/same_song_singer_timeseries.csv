@@ -1,0 +1,287 @@
+singer,gender,song,t_from_onset,t_normalized,hr_bpm
+S2,F,If You Knew My Story,0.0,0.0,144
+S2,F,If You Knew My Story,1.0,0.0179,143
+S2,F,If You Knew My Story,2.0,0.0357,141
+S2,F,If You Knew My Story,3.0,0.0536,142
+S2,F,If You Knew My Story,4.0,0.0714,142
+S2,F,If You Knew My Story,5.0,0.0893,142
+S2,F,If You Knew My Story,6.0,0.1071,143
+S2,F,If You Knew My Story,7.0,0.125,143
+S2,F,If You Knew My Story,8.0,0.1429,143
+S2,F,If You Knew My Story,9.0,0.1607,145
+S2,F,If You Knew My Story,10.0,0.1786,143
+S2,F,If You Knew My Story,11.0,0.1964,143
+S2,F,If You Knew My Story,12.0,0.2143,144
+S2,F,If You Knew My Story,13.0,0.2321,144
+S2,F,If You Knew My Story,14.0,0.25,146
+S2,F,If You Knew My Story,15.0,0.2679,148
+S2,F,If You Knew My Story,16.0,0.2857,152
+S2,F,If You Knew My Story,17.0,0.3036,153
+S2,F,If You Knew My Story,18.0,0.3214,153
+S2,F,If You Knew My Story,19.0,0.3393,152
+S2,F,If You Knew My Story,20.0,0.3571,151
+S2,F,If You Knew My Story,21.0,0.375,146
+S2,F,If You Knew My Story,22.0,0.3929,141
+S2,F,If You Knew My Story,23.0,0.4107,138
+S2,F,If You Knew My Story,24.0,0.4286,138
+S2,F,If You Knew My Story,25.0,0.4464,137
+S2,F,If You Knew My Story,26.0,0.4643,135
+S2,F,If You Knew My Story,27.0,0.4821,134
+S2,F,If You Knew My Story,28.0,0.5,134
+S2,F,If You Knew My Story,29.0,0.5179,139
+S2,F,If You Knew My Story,30.0,0.5357,139
+S2,F,If You Knew My Story,31.0,0.5536,143
+S2,F,If You Knew My Story,32.0,0.5714,146
+S2,F,If You Knew My Story,33.0,0.5893,149
+S2,F,If You Knew My Story,34.0,0.6071,152
+S2,F,If You Knew My Story,35.0,0.625,154
+S2,F,If You Knew My Story,36.0,0.6429,156
+S2,F,If You Knew My Story,37.0,0.6607,156
+S2,F,If You Knew My Story,38.0,0.6786,156
+S2,F,If You Knew My Story,39.0,0.6964,156
+S2,F,If You Knew My Story,40.0,0.7143,155
+S2,F,If You Knew My Story,41.0,0.7321,153
+S2,F,If You Knew My Story,42.0,0.75,152
+S2,F,If You Knew My Story,43.0,0.7679,150
+S2,F,If You Knew My Story,44.0,0.7857,149
+S2,F,If You Knew My Story,45.0,0.8036,149
+S2,F,If You Knew My Story,46.0,0.8214,150
+S2,F,If You Knew My Story,47.0,0.8393,152
+S2,F,If You Knew My Story,48.0,0.8571,152
+S2,F,If You Knew My Story,49.0,0.875,154
+S2,F,If You Knew My Story,50.0,0.8929,157
+S2,F,If You Knew My Story,51.0,0.9107,157
+S2,F,If You Knew My Story,52.0,0.9286,155
+S2,F,If You Knew My Story,53.0,0.9464,153
+S2,F,If You Knew My Story,54.0,0.9643,153
+S2,F,If You Knew My Story,55.0,0.9821,153
+S2,F,If You Knew My Story,56.0,1.0,153
+S3,F,If You Knew My Story,0.0,0.0,149
+S3,F,If You Knew My Story,1.0,0.0182,148
+S3,F,If You Knew My Story,2.0,0.0364,148
+S3,F,If You Knew My Story,3.0,0.0545,147
+S3,F,If You Knew My Story,4.0,0.0727,144
+S3,F,If You Knew My Story,5.0,0.0909,142
+S3,F,If You Knew My Story,6.0,0.1091,142
+S3,F,If You Knew My Story,7.0,0.1273,141
+S3,F,If You Knew My Story,8.0,0.1455,141
+S3,F,If You Knew My Story,9.0,0.1636,142
+S3,F,If You Knew My Story,10.0,0.1818,143
+S3,F,If You Knew My Story,11.0,0.2,143
+S3,F,If You Knew My Story,12.0,0.2182,143
+S3,F,If You Knew My Story,13.0,0.2364,143
+S3,F,If You Knew My Story,14.0,0.2545,146
+S3,F,If You Knew My Story,15.0,0.2727,149
+S3,F,If You Knew My Story,16.0,0.2909,151
+S3,F,If You Knew My Story,17.0,0.3091,153
+S3,F,If You Knew My Story,18.0,0.3273,154
+S3,F,If You Knew My Story,19.0,0.3455,155
+S3,F,If You Knew My Story,20.0,0.3636,155
+S3,F,If You Knew My Story,21.0,0.3818,155
+S3,F,If You Knew My Story,22.0,0.4,155
+S3,F,If You Knew My Story,23.0,0.4182,155
+S3,F,If You Knew My Story,24.0,0.4364,155
+S3,F,If You Knew My Story,25.0,0.4545,158
+S3,F,If You Knew My Story,26.0,0.4727,158
+S3,F,If You Knew My Story,27.0,0.4909,157
+S3,F,If You Knew My Story,28.0,0.5091,156
+S3,F,If You Knew My Story,29.0,0.5273,155
+S3,F,If You Knew My Story,30.0,0.5455,154
+S3,F,If You Knew My Story,31.0,0.5636,154
+S3,F,If You Knew My Story,32.0,0.5818,155
+S3,F,If You Knew My Story,33.0,0.6,156
+S3,F,If You Knew My Story,34.0,0.6182,156
+S3,F,If You Knew My Story,35.0,0.6364,156
+S3,F,If You Knew My Story,36.0,0.6545,156
+S3,F,If You Knew My Story,37.0,0.6727,156
+S3,F,If You Knew My Story,38.0,0.6909,156
+S3,F,If You Knew My Story,39.0,0.7091,156
+S3,F,If You Knew My Story,40.0,0.7273,157
+S3,F,If You Knew My Story,41.0,0.7455,157
+S3,F,If You Knew My Story,42.0,0.7636,156
+S3,F,If You Knew My Story,43.0,0.7818,154
+S3,F,If You Knew My Story,44.0,0.8,151
+S3,F,If You Knew My Story,45.0,0.8182,150
+S3,F,If You Knew My Story,46.0,0.8364,149
+S3,F,If You Knew My Story,47.0,0.8545,149
+S3,F,If You Knew My Story,48.0,0.8727,153
+S3,F,If You Knew My Story,49.0,0.8909,155
+S3,F,If You Knew My Story,50.0,0.9091,156
+S3,F,If You Knew My Story,51.0,0.9273,156
+S3,F,If You Knew My Story,52.0,0.9455,155
+S3,F,If You Knew My Story,53.0,0.9636,153
+S3,F,If You Knew My Story,54.0,0.9818,154
+S3,F,If You Knew My Story,55.0,1.0,155
+S4,F,If You Knew My Story,0.0,0.0,80
+S4,F,If You Knew My Story,1.0,0.0185,81
+S4,F,If You Knew My Story,2.0,0.037,81
+S4,F,If You Knew My Story,3.0,0.0556,82
+S4,F,If You Knew My Story,4.0,0.0741,81
+S4,F,If You Knew My Story,5.0,0.0926,79
+S4,F,If You Knew My Story,6.0,0.1111,78
+S4,F,If You Knew My Story,7.0,0.1296,78
+S4,F,If You Knew My Story,8.0,0.1481,77
+S4,F,If You Knew My Story,9.0,0.1667,76
+S4,F,If You Knew My Story,10.0,0.1852,77
+S4,F,If You Knew My Story,11.0,0.2037,78
+S4,F,If You Knew My Story,12.0,0.2222,79
+S4,F,If You Knew My Story,13.0,0.2407,81
+S4,F,If You Knew My Story,14.0,0.2593,82
+S4,F,If You Knew My Story,15.0,0.2778,84
+S4,F,If You Knew My Story,16.0,0.2963,86
+S4,F,If You Knew My Story,17.0,0.3148,87
+S4,F,If You Knew My Story,18.0,0.3333,87
+S4,F,If You Knew My Story,19.0,0.3519,87
+S4,F,If You Knew My Story,20.0,0.3704,87
+S4,F,If You Knew My Story,21.0,0.3889,87
+S4,F,If You Knew My Story,22.0,0.4074,86
+S4,F,If You Knew My Story,23.0,0.4259,86
+S4,F,If You Knew My Story,24.0,0.4444,86
+S4,F,If You Knew My Story,25.0,0.463,89
+S4,F,If You Knew My Story,26.0,0.4815,89
+S4,F,If You Knew My Story,27.0,0.5,88
+S4,F,If You Knew My Story,28.0,0.5185,85
+S4,F,If You Knew My Story,29.0,0.537,85
+S4,F,If You Knew My Story,30.0,0.5556,85
+S4,F,If You Knew My Story,31.0,0.5741,92
+S4,F,If You Knew My Story,32.0,0.5926,95
+S4,F,If You Knew My Story,33.0,0.6111,96
+S4,F,If You Knew My Story,34.0,0.6296,96
+S4,F,If You Knew My Story,35.0,0.6481,96
+S4,F,If You Knew My Story,36.0,0.6667,96
+S4,F,If You Knew My Story,37.0,0.6852,96
+S4,F,If You Knew My Story,38.0,0.7037,98
+S4,F,If You Knew My Story,39.0,0.7222,98
+S4,F,If You Knew My Story,40.0,0.7407,98
+S4,F,If You Knew My Story,41.0,0.7593,98
+S4,F,If You Knew My Story,42.0,0.7778,99
+S4,F,If You Knew My Story,43.0,0.7963,99
+S4,F,If You Knew My Story,44.0,0.8148,99
+S4,F,If You Knew My Story,45.0,0.8333,99
+S4,F,If You Knew My Story,46.0,0.8519,99
+S4,F,If You Knew My Story,47.0,0.8704,99
+S4,F,If You Knew My Story,48.0,0.8889,99
+S4,F,If You Knew My Story,49.0,0.9074,99
+S4,F,If You Knew My Story,50.0,0.9259,99
+S4,F,If You Knew My Story,51.0,0.9444,99
+S4,F,If You Knew My Story,52.0,0.963,99
+S4,F,If You Knew My Story,53.0,0.9815,99
+S4,F,If You Knew My Story,54.0,1.0,99
+S1,M,Shiksa Goddess,0.0,0.0,149
+S1,M,Shiksa Goddess,1.0,0.0172,150
+S1,M,Shiksa Goddess,2.0,0.0345,151
+S1,M,Shiksa Goddess,3.0,0.0517,153
+S1,M,Shiksa Goddess,4.0,0.069,153
+S1,M,Shiksa Goddess,5.0,0.0862,152
+S1,M,Shiksa Goddess,6.0,0.1034,151
+S1,M,Shiksa Goddess,7.0,0.1207,151
+S1,M,Shiksa Goddess,8.0,0.1379,150
+S1,M,Shiksa Goddess,9.0,0.1552,151
+S1,M,Shiksa Goddess,10.0,0.1724,152
+S1,M,Shiksa Goddess,11.0,0.1897,152
+S1,M,Shiksa Goddess,12.0,0.2069,152
+S1,M,Shiksa Goddess,13.0,0.2241,153
+S1,M,Shiksa Goddess,14.0,0.2414,153
+S1,M,Shiksa Goddess,15.0,0.2586,154
+S1,M,Shiksa Goddess,16.0,0.2759,154
+S1,M,Shiksa Goddess,17.0,0.2931,153
+S1,M,Shiksa Goddess,18.0,0.3103,151
+S1,M,Shiksa Goddess,19.0,0.3276,150
+S1,M,Shiksa Goddess,20.0,0.3448,150
+S1,M,Shiksa Goddess,21.0,0.3621,150
+S1,M,Shiksa Goddess,22.0,0.3793,152
+S1,M,Shiksa Goddess,23.0,0.3966,154
+S1,M,Shiksa Goddess,24.0,0.4138,155
+S1,M,Shiksa Goddess,25.0,0.431,155
+S1,M,Shiksa Goddess,26.0,0.4483,156
+S1,M,Shiksa Goddess,27.0,0.4655,157
+S1,M,Shiksa Goddess,28.0,0.4828,157
+S1,M,Shiksa Goddess,29.0,0.5,157
+S1,M,Shiksa Goddess,30.0,0.5172,154
+S1,M,Shiksa Goddess,31.0,0.5345,154
+S1,M,Shiksa Goddess,32.0,0.5517,154
+S1,M,Shiksa Goddess,33.0,0.569,155
+S1,M,Shiksa Goddess,34.0,0.5862,155
+S1,M,Shiksa Goddess,35.0,0.6034,157
+S1,M,Shiksa Goddess,36.0,0.6207,157
+S1,M,Shiksa Goddess,37.0,0.6379,156
+S1,M,Shiksa Goddess,38.0,0.6552,155
+S1,M,Shiksa Goddess,39.0,0.6724,155
+S1,M,Shiksa Goddess,40.0,0.6897,155
+S1,M,Shiksa Goddess,41.0,0.7069,156
+S1,M,Shiksa Goddess,42.0,0.7241,156
+S1,M,Shiksa Goddess,43.0,0.7414,156
+S1,M,Shiksa Goddess,44.0,0.7586,156
+S1,M,Shiksa Goddess,45.0,0.7759,156
+S1,M,Shiksa Goddess,46.0,0.7931,156
+S1,M,Shiksa Goddess,47.0,0.8103,157
+S1,M,Shiksa Goddess,48.0,0.8276,157
+S1,M,Shiksa Goddess,49.0,0.8448,157
+S1,M,Shiksa Goddess,50.0,0.8621,156
+S1,M,Shiksa Goddess,51.0,0.8793,155
+S1,M,Shiksa Goddess,52.0,0.8966,157
+S1,M,Shiksa Goddess,53.0,0.9138,158
+S1,M,Shiksa Goddess,54.0,0.931,158
+S1,M,Shiksa Goddess,55.0,0.9483,158
+S1,M,Shiksa Goddess,56.0,0.9655,158
+S1,M,Shiksa Goddess,57.0,0.9828,158
+S1,M,Shiksa Goddess,58.0,1.0,158
+S5,M,Shiksa Goddess,0.0,0.0,166
+S5,M,Shiksa Goddess,1.0,0.0172,166
+S5,M,Shiksa Goddess,2.0,0.0345,165
+S5,M,Shiksa Goddess,3.0,0.0517,165
+S5,M,Shiksa Goddess,4.0,0.069,163
+S5,M,Shiksa Goddess,5.0,0.0862,163
+S5,M,Shiksa Goddess,6.0,0.1034,164
+S5,M,Shiksa Goddess,7.0,0.1207,163
+S5,M,Shiksa Goddess,8.0,0.1379,163
+S5,M,Shiksa Goddess,9.0,0.1552,164
+S5,M,Shiksa Goddess,10.0,0.1724,164
+S5,M,Shiksa Goddess,11.0,0.1897,165
+S5,M,Shiksa Goddess,12.0,0.2069,167
+S5,M,Shiksa Goddess,13.0,0.2241,168
+S5,M,Shiksa Goddess,14.0,0.2414,170
+S5,M,Shiksa Goddess,15.0,0.2586,170
+S5,M,Shiksa Goddess,16.0,0.2759,169
+S5,M,Shiksa Goddess,17.0,0.2931,168
+S5,M,Shiksa Goddess,18.0,0.3103,167
+S5,M,Shiksa Goddess,19.0,0.3276,166
+S5,M,Shiksa Goddess,20.0,0.3448,166
+S5,M,Shiksa Goddess,21.0,0.3621,166
+S5,M,Shiksa Goddess,22.0,0.3793,166
+S5,M,Shiksa Goddess,23.0,0.3966,166
+S5,M,Shiksa Goddess,24.0,0.4138,167
+S5,M,Shiksa Goddess,25.0,0.431,168
+S5,M,Shiksa Goddess,26.0,0.4483,169
+S5,M,Shiksa Goddess,27.0,0.4655,169
+S5,M,Shiksa Goddess,28.0,0.4828,169
+S5,M,Shiksa Goddess,29.0,0.5,169
+S5,M,Shiksa Goddess,30.0,0.5172,168
+S5,M,Shiksa Goddess,31.0,0.5345,168
+S5,M,Shiksa Goddess,32.0,0.5517,169
+S5,M,Shiksa Goddess,33.0,0.569,169
+S5,M,Shiksa Goddess,34.0,0.5862,169
+S5,M,Shiksa Goddess,35.0,0.6034,169
+S5,M,Shiksa Goddess,36.0,0.6207,169
+S5,M,Shiksa Goddess,37.0,0.6379,169
+S5,M,Shiksa Goddess,38.0,0.6552,169
+S5,M,Shiksa Goddess,39.0,0.6724,170
+S5,M,Shiksa Goddess,40.0,0.6897,171
+S5,M,Shiksa Goddess,41.0,0.7069,171
+S5,M,Shiksa Goddess,42.0,0.7241,171
+S5,M,Shiksa Goddess,43.0,0.7414,171
+S5,M,Shiksa Goddess,44.0,0.7586,172
+S5,M,Shiksa Goddess,45.0,0.7759,173
+S5,M,Shiksa Goddess,46.0,0.7931,173
+S5,M,Shiksa Goddess,47.0,0.8103,173
+S5,M,Shiksa Goddess,48.0,0.8276,176
+S5,M,Shiksa Goddess,49.0,0.8448,177
+S5,M,Shiksa Goddess,50.0,0.8621,177
+S5,M,Shiksa Goddess,51.0,0.8793,177
+S5,M,Shiksa Goddess,52.0,0.8966,179
+S5,M,Shiksa Goddess,53.0,0.9138,180
+S5,M,Shiksa Goddess,54.0,0.931,181
+S5,M,Shiksa Goddess,55.0,0.9483,181
+S5,M,Shiksa Goddess,56.0,0.9655,181
+S5,M,Shiksa Goddess,57.0,0.9828,182
+S5,M,Shiksa Goddess,58.0,1.0,180

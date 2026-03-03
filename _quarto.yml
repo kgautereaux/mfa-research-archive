@@ -4,10 +4,9 @@ project:
   render:
     - "*.qmd"
     - "**/*.qmd"
-    - "archive/2026/brianna-meikle/03_descriptive.ipynb"
-    - "archive/2026/morgan-pay/analysis.ipynb"
+    - "archive/2026/brianna-meikle/index.ipynb"
+    - "archive/2026/morgan-pay/index.ipynb"
   resources:
-    - "!**/*.ipynb"
     - "!**/data/"
 
 website:
@@ -29,9 +28,9 @@ website:
         - section: "2026"
           contents:
             - text: "Brianna Meikle"
-              href: archive/2026/brianna-meikle/index.qmd
+              href: archive/2026/brianna-meikle/index.ipynb
             - text: "Morgan Pay"
-              href: archive/2026/morgan-pay/index.qmd
+              href: archive/2026/morgan-pay/index.ipynb
   search: true
   page-footer:
     center: "[kaylagautereaux.com](https://kaylagautereaux.com) · Research Archive"

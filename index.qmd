@@ -26,5 +26,5 @@ Visit the [Research Archive](archive/index.qmd) to explore thesis projects by ye
 
 ## Current Projects (2026)
 
-- **[Brianna Meikle](archive/2026/brianna-meikle/index.qmd)** — *Examining Performance Anxiety and Co-Regulation in the Vocal Audition.* Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.
-- **[Morgan Pay](archive/2026/morgan-pay/index.qmd)** — *Animal and Phoneme Mimic Exercises and Singing Voice Quality.* Acoustic analysis of how targeted vocal exercises shape the singing voice.
+- **[Brianna Meikle](archive/2026/brianna-meikle/)** — *Examining Performance Anxiety and Co-Regulation in the Vocal Audition.* Heart rate monitoring during mock auditions reveals the physiological gap between singer and panelist.
+- **[Morgan Pay](archive/2026/morgan-pay/)** — *Animal and Phoneme Mimic Exercises and Singing Voice Quality.* Acoustic analysis of how targeted vocal exercises shape the singing voice.
