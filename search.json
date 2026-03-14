@@ -22,17 +22,6 @@
     ]
   },
   {
-    "objectID": "archive/2026/michal-nissimoff/index.html#version-history",
-    "href": "archive/2026/michal-nissimoff/index.html#version-history",
-    "title": "Vocal Expression Through Group Free Improvisation: Somatic Methods and Artistic Risk-Taking",
-    "section": "Version History",
-    "text": "Version History\n\n\n\n\n\n\n\nDate\nChanges\n\n\n\n\n2026-03-05\nInitial publication: qualitative themes, descriptive survey analysis, interactive figures\n\n\n2026-03-10\nAdded Wilcoxon signed-rank tests and effect sizes for IRT/AIRT pre-post and within-session comparisons\n\n\n2026-03-14\nConventions alignment: corrected participant gender (4F, 3M), added missing data documentation, consolidated H3 subsections, moved Transfer Problem to RQ2",
-    "crumbs": [
-      "2026",
-      "Michal Nissimoff"
-    ]
-  },
-  {
     "objectID": "archive/2026/michal-nissimoff/index.html#key-findings",
     "href": "archive/2026/michal-nissimoff/index.html#key-findings",
     "title": "Vocal Expression Through Group Free Improvisation: Somatic Methods and Artistic Risk-Taking",
@@ -170,17 +159,6 @@
     "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
     "section": "Analysis Method",
     "text": "Analysis Method\nHR alignment: Audio recordings were annotated with phase boundaries using Praat TextGrids. HR data was aligned to audio using a clap-based sync point, producing second-by-second HR values tagged by audition phase.\nStatistical approach: Descriptive statistics (means, ranges, reactivity indices), Spearman rank correlations for anxiety-HR and survey-HR relationships, windowed cross-correlation (WCC) for moment-to-moment synchrony, smoothed whole-series correlation for trend-level coherence, wavelet coherence for frequency-resolved synchrony, and individual growth curves for within-song HR dynamics.\nData constraint: HR was exported from Polar Flow at 1 Hz, averaged BPM per second, not beat-to-beat RR intervals. Standard HRV metrics (SDNN, RMSSD, etc.) cannot be computed. Analysis focuses on HR magnitude, reactivity, and interpersonal synchrony.\nMethodological notes:",
-    "crumbs": [
-      "2026",
-      "Brianna Meikle"
-    ]
-  },
-  {
-    "objectID": "archive/2026/brianna-meikle/index.html#version-history",
-    "href": "archive/2026/brianna-meikle/index.html#version-history",
-    "title": "Examining Performance Anxiety and Co-Regulation in the Vocal Audition",
-    "section": "Version History",
-    "text": "Version History\n\n\n\n\n\n\n\nDate\nChanges\n\n\n\n\n2026-02-28\nInitial publication: HR time series, phase comparisons, cross-session figures, K-MPAI/MAAQ correlations\n\n\n2026-03-03\nReorganized by research questions (RQ1-RQ5). Added Key Findings table with confidence and evidence columns\n\n\n2026-03-06\nFactual corrections: S2-F3 studio relationship, F1 familiarity scope. Reframed synchrony dyad comparisons. Added S2 vs S4 post-survey contrast and F3 perception gap\n\n\n2026-03-10\nFixed figure legend positioning (below charts). Editorial flags on pooled comparisons\n\n\n2026-03-14\nRepublished with conventions alignment across all archives",
     "crumbs": [
       "2026",
       "Brianna Meikle"
@@ -390,17 +368,6 @@
     "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
     "section": "",
     "text": "This study compares vocal exercises derived from animal imitations (owl, cat, cow) with exercises derived from the corresponding vowel imitations (/u/, /ae/, /a/) to investigate how each affects singing voice quality. Five participants each completed two sessions: one animal-based, one vowel-based. Acoustic measures were extracted from mimics, exercises, and a target song (“Somewhere Over the Rainbow”) recorded at baseline and after each exercise block. Perceptual effort was rated using the Omni-VES, and post-session engagement questionnaires captured participant experience.\nThree research questions structure the analysis: (1) Do animal-derived exercises differ acoustically from vowel-derived exercises, and does that difference transfer into the exercise phase and carry over into singing? (2) How do the two exercise protocols affect overall voice quality and perceived vocal effort? (3) How do participants experience and engage with each exercise protocol?\nThe central finding is that each animal-vowel pair works through a different acoustic mechanism: cow changes acoustic measures associated with phonation, cat changes resonance, owl changes intensity. These signatures partially transfer from mimics into exercises, and the type of exercise (not cumulative warm-up) predicts the acoustic profile of subsequent singing. Neither protocol harms voice quality. Both protocols are moderately engaging, with no meaningful difference in overall engagement between them.\nThis is a proof-of-concept study with five participants. Effect sizes are large but confidence intervals are wide. The findings describe these five singers and identify patterns for future replication, not generalizable claims.",
-    "crumbs": [
-      "2026",
-      "Morgan Pay"
-    ]
-  },
-  {
-    "objectID": "archive/2026/morgan-pay/index.html#version-history",
-    "href": "archive/2026/morgan-pay/index.html#version-history",
-    "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
-    "section": "Version History",
-    "text": "Version History\n\n\n\n\n\n\n\nDate\nChanges\n\n\n\n\n2026-03-03\nInitial publication: acoustic analysis (AVQI, DSI, CPPS, HNR, shimmer, jitter, f0), Omni-VES effort ratings, engagement questionnaire\n\n\n2026-03-05\nReorganized by research questions (RQ1-RQ3). Added Key Findings table with confidence and evidence columns. Added engagement analysis\n\n\n2026-03-06\nVES interpretation corrected (effort, not quality). CI vs effect size distinction added. Phonation language softened with literature citations\n\n\n2026-03-10\nFixed figure legend positioning (below charts). Editorial flags on pooled comparisons. Added P5 VES and P4 AVQI limitations\n\n\n2026-03-14\nRepublished with conventions alignment across all archives",
     "crumbs": [
       "2026",
       "Morgan Pay"
