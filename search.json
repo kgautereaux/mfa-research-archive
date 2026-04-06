@@ -323,7 +323,7 @@
     "href": "archive/2026/morgan-pay/index.html#acknowledgments",
     "title": "Animal and Phoneme Mimic Exercises and Singing Voice Quality",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\nThis analysis was developed collaboratively with Claude (Anthropic) under the direction of Kayla Gautereaux. All analytical decisions were made by the research team. Acoustic analysis used Praat (Boersma & Weenink); statistical analysis and visualization used Python (pandas, scipy, plotly).",
+    "text": "Acknowledgments\nAcoustic extraction was performed by Ian Howell using a Praat plugin he developed with Claude (Anthropic). Analysis pipeline, visualization, and archival were developed collaboratively with Claude under the direction of Kayla Gautereaux. All analytical decisions were made by the research team. Statistical analysis and visualization used Python (pandas, scipy, plotly).",
     "crumbs": [
       "2026",
       "Morgan Pay"
