@@ -1,0 +1,6 @@
+# This repository publishes the rendered site only, on the gh-pages branch.
+# Source lives in the private project repo. Nothing but this file and the README
+# belongs on main, so that research data and PI-only notebooks cannot reach it.
+*
+!.gitignore
+!README.md
