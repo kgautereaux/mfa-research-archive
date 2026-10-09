@@ -1,0 +1,19 @@
+/* ============================================================
+   Research Archive Bridge
+   ============================================================
+   Maps shared design tokens to the research archive's existing
+   variable names. The archive currently uses an achromatic palette;
+   this bridge warms it up to match the shared system.
+
+   Import this AFTER variables.css in the archive.
+   ============================================================ */
+
+:root {
+    /* The research archive uses these names (from its current styles.css) */
+    --primary-color: var(--color-night);
+    --text-color: var(--color-espresso);
+    --text-muted: var(--color-warm-gray);
+    --accent-color: var(--color-bronze);
+    --border-color: var(--color-taupe);
+    --bg-light: var(--color-cream);
+}
