@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/archive/index.html",
+    "items": [
+      "/archive/2026/michal-nissimoff/index.html",
+      "/archive/2026/morgan-pay/index.html",
+      "/archive/2026/brianna-meikle/index.html"
+    ]
+  },
+  {
     "listing": "/archive/catalog.html",
     "items": [
       "/archive/2026/michal-nissimoff/index.html",
@@ -35,14 +43,6 @@
       "/archive/2022/kristina-newman/index.html",
       "/archive/2022/meredith-eib/index.html",
       "/archive/2022/william-pazdziora/index.html"
-    ]
-  },
-  {
-    "listing": "/archive/index.html",
-    "items": [
-      "/archive/2026/michal-nissimoff/index.html",
-      "/archive/2026/morgan-pay/index.html",
-      "/archive/2026/brianna-meikle/index.html"
     ]
   }
 ]
