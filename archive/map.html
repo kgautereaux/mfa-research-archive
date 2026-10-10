@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-14d69860e42394bc8f238ef95fc5195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-2f94dd1b61b2f334a6181bb2ee83ad00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +68,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #eaf1fb;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #eaf1fb;
+background: #0b1d33;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -76,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -118,14 +135,30 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Topic Map</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+    
+    
+    
+    
+    </div>
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 <!-- Courtesy gate. A sign on the door, not a lock.
 
      The pages are static files, so their text is in the downloaded HTML whether or not
@@ -214,36 +247,19 @@ ul.task-list li input[type="checkbox"] {
 })();
 </script>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Topic Map</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
 
-  
-  
-  
-  
-  </div>
-
-
-
-</header>
-
-
-<div class="tm-wrap page-columns page-full">
+<div class="tm-wrap">
   <div class="tm-stage">
-    <svg id="tm" viewbox="0 0 760 620" role="img" aria-label="Interactive map of catalog topics joined where theses share them"></svg>
-    <p class="tm-hint">Drag a topic to move it. Hover to highlight, click to hold a selection.</p>
+    <svg id="tm" viewbox="0 0 760 620" role="img" aria-label="Interactive map of catalog topics joined where studies share them"></svg>
   </div>
-  <aside class="tm-panel" id="tm-panel">
-    <h3 id="tm-title" class="anchored">All theses</h3>
+  <div class="tm-panel" id="tm-panel">
+    <h3 id="tm-title" class="anchored">All research</h3>
     <p id="tm-sub" class="tm-sub">Hover or click a topic to see its research here.</p>
     <ol id="tm-list"></ol>
-  </aside>
+  </div>
 </div>
 
 <style>
@@ -255,13 +271,13 @@ ul.task-list li input[type="checkbox"] {
 .tm-panel{border-left:1px solid #e8e3e0;padding-left:1.25rem;min-height:320px}
 .tm-panel h3{font-size:1.05rem;margin:0 0 .15rem}
 .tm-sub{font-size:.85rem;color:#8a8286;margin:0 0 .75rem}
-.tm-panel ol{margin:0;padding-left:1.1rem}
+.tm-panel ol{margin:0;padding-left:1.1rem;max-height:30rem;overflow-y:auto}
 .tm-panel li{margin-bottom:.6rem;font-size:.9rem;line-height:1.35}
 .tm-panel li a{text-decoration:none}
 .tm-panel li span{display:block;color:#8a8286;font-size:.82rem}
 #tm .lk{stroke:#9b9289;fill:none}
 #tm .nd{cursor:pointer}
-#tm .nd text{font:600 12px/1.2 Inter,system-ui,sans-serif;fill:#2d2a2c}
+#tm .nd text{font:500 12.5px/1.2 'DM Sans',system-ui,sans-serif;fill:#3A3330}
 #tm .nd tspan{font-weight:400;fill:#8a8286}
 #tm .dim{opacity:.13}
 @media (max-width:860px){.tm-wrap{grid-template-columns:1fr}
@@ -270,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 (function(){
-const D = {"nodes": [{"id": "Style and genre", "n": 9, "c": "#6B3A65"}, {"id": "In the studio", "n": 8, "c": "#B8541C"}, {"id": "Anxiety and wellbeing", "n": 7, "c": "#2F6B5E"}, {"id": "Curriculum", "n": 7, "c": "#8A5A2B"}, {"id": "Acoustics", "n": 6, "c": "#3D5A80"}, {"id": "Equity and identity", "n": 6, "c": "#7A8B72"}, {"id": "Breath", "n": 5, "c": "#9C3D54"}, {"id": "Perception", "n": 5, "c": "#4F6D7A"}, {"id": "Diction", "n": 3, "c": "#A8762C"}, {"id": "Repertoire and fach", "n": 3, "c": "#5B4B8A"}, {"id": "Health", "n": 2, "c": "#2E7D6B"}, {"id": "Cross-training", "n": 2, "c": "#A14D7B"}, {"id": "Ethics and scope", "n": 2, "c": "#55702F"}, {"id": "Motor learning", "n": 2, "c": "#8C4A3B"}, {"id": "Access and disability", "n": 2, "c": "#3F5E8C"}, {"id": "Somatic work", "n": 2, "c": "#6B3A65"}, {"id": "Auditions and performance", "n": 1, "c": "#B8541C"}], "links": [{"s": "Acoustics", "t": "Breath", "w": 2}, {"s": "Acoustics", "t": "In the studio", "w": 2}, {"s": "Anxiety and wellbeing", "t": "Breath", "w": 2}, {"s": "Anxiety and wellbeing", "t": "In the studio", "w": 4}, {"s": "Breath", "t": "In the studio", "w": 2}, {"s": "Curriculum", "t": "Style and genre", "w": 2}, {"s": "Anxiety and wellbeing", "t": "Curriculum", "w": 2}, {"s": "Acoustics", "t": "Perception", "w": 2}, {"s": "Acoustics", "t": "Style and genre", "w": 2}, {"s": "Perception", "t": "Style and genre", "w": 2}, {"s": "Ethics and scope", "t": "In the studio", "w": 2}, {"s": "Diction", "t": "Style and genre", "w": 2}, {"s": "Curriculum", "t": "Equity and identity", "w": 3}, {"s": "Equity and identity", "t": "Style and genre", "w": 2}], "entries": [{"t": "When Things Get Rough: Rough Vocal Effects in the Musical Theatre Voice Studio", "a": "Cassi Mikat", "y": 2022, "h": "2022/cassi-mikat/", "k": ["Health", "In the studio", "Style and genre"]}, {"t": "Fight, Flight, or Fault: Physiological and Emotional Impacts of Trauma on Singers", "a": "Kristina Newman", "y": 2022, "h": "2022/kristina-newman/", "k": ["Acoustics", "Anxiety and wellbeing", "Breath", "In the studio"]}, {"t": "The Triple Threat Tango: Historical and Physiological Perspectives on the Disconnect Between Musical Theater Vocal and Dance Pedagogies", "a": "William Pazdziora", "y": 2022, "h": "2022/william-pazdziora/", "k": ["Breath", "Cross-training", "Curriculum", "Style and genre"]}, {"t": "Overwhelming Prevalence of Music Performance Anxiety in Conservatory Musical Theatre Singers: Associated Symptoms", "a": "Esther Bertain", "y": 2023, "h": "2023/esther-bertain/", "k": ["Anxiety and wellbeing", "Curriculum"]}, {"t": "Vibrato in Contemporary Commercial Music Singing: Emotional Activity Correlation with Vibrato Extent in Undergraduate Female-Identifying Pop Singers", "a": "Yu Hin Bryan Chan", "y": 2023, "h": "2023/yu-hin-bryan-chan/", "k": ["Acoustics", "Perception", "Style and genre"]}, {"t": "Voice Teaching Within a Student's Window of Tolerance: Upholding an Ethical Scope of Practice", "a": "Sarah DeYong", "y": 2023, "h": "2023/sarah-deyong/", "k": ["Anxiety and wellbeing", "Ethics and scope", "In the studio"]}, {"t": "Singing in Mandarin: Guide for Mandarin and Non-Mandarin-Speaking Singers Using the International Phonetic Alphabet, the Chinese Phonetic Scheme, and Through Enunciation to Phonation", "a": "Chu Hu", "y": 2023, "h": "2023/chu-hu/", "k": ["Diction", "Style and genre"]}, {"t": "K-Pop Singing Pedagogy Through Linguistics: A Voice Teacher's Guide to Cultural Influence", "a": "Alice Jihyun Kim", "y": 2023, "h": "2023/alice-jihyun-kim/", "k": ["Diction", "Style and genre"]}, {"t": "Measuring the Effects of Playing Clarinet on Singing: A Case Study on Nasalance", "a": "Alexander Lyons", "y": 2023, "h": "2023/alexander-lyons/", "k": ["Acoustics", "Cross-training"]}, {"t": "Music Preference Impact on Practice Time and Memory Recall of Melody, Rhythm, and Lyrics", "a": "Elza Ann Manoj", "y": 2023, "h": "2023/elza-ann-manoj/", "k": ["Motor learning"]}, {"t": "Universal Design for Voice Teaching: Including Singers with Autistic Ways of Being in the Studio", "a": "Adam Moxness", "y": 2023, "h": "2023/adam-moxness/", "k": ["Access and disability", "In the studio"]}, {"t": "Including Hip-Hop Rap Vocal Technique in Musical Theater Degree Curricula to Enact Diversity, Equity, and Inclusion Policies and Train 21st-Century Singers", "a": "Carol Denise Smith Sparkman", "y": 2023, "h": "2023/carol-denise-smith-sparkman/", "k": ["Curriculum", "Equity and identity", "Style and genre"]}, {"t": "Black Intersectional Identity and Vocal Expectations: Incompatibility Between Musical Theatre Voice Training and Industry Standards for Black Singers", "a": "Rose Van Dyne", "y": 2023, "h": "2023/rose-van-dyne/", "k": ["Curriculum", "Equity and identity"]}, {"t": "Risk, Need, Responsivity: Adapting a Model for Assessment and Training of Singers with Cultural Competency Through the Lens of Chicana Singers", "a": "Haley Mendez Wawro", "y": 2023, "h": "2023/haley-mendez-wawro/", "k": ["Equity and identity", "Ethics and scope", "In the studio"]}, {"t": "The Effects of Pelvic Floor-Related Cues on the Experienced Ease of Singing", "a": "Lyndsee Bell", "y": 2024, "h": "2024/lyndsee-bell/", "k": ["Anxiety and wellbeing", "Breath", "In the studio", "Somatic work"]}, {"t": "The Relationship Between Inspiration Duration, Total Lung Volume, and Resting Expiratory Level Utilizing Respiratory Inductance Plethysmography", "a": "Natalie Ehrensbeck", "y": 2024, "h": "2024/natalie-ehrensbeck/", "k": ["Acoustics", "Breath"]}, {"t": "Cultural Responsiveness in the Vocal Studio: A Mixed Method Study on the Relationship Between Musical Theater Repertoire and Practice Time in Collegiate Latinx Singers", "a": "Mariana Elos\u00faa Serna", "y": 2024, "h": "2024/mariana-elosua-serna/", "k": ["Equity and identity", "Motor learning", "Repertoire and fach"]}, {"t": "Evolution of Tenor and Baritone Voice Classification in Musical Theater: A Tessitura Analysis from Original Productions to Contemporary Revivals", "a": "Sandy Sahar Gooen", "y": 2024, "h": "2024/sandy-sahar-gooen/", "k": ["Repertoire and fach", "Style and genre"]}, {"t": "Using Spectral Moment Analysis to Quantify Acoustic Differences Between Opera and Musical Theatre Styles in Soprano Voices", "a": "Violet Joy Hansen", "y": 2024, "h": "2024/violet-joy-hansen/", "k": ["Acoustics", "Style and genre"]}, {"t": "Comparative Analysis of Teaching Methods for Mandarin Song Diction: Evaluating the Effectiveness of the International Phonetic Alphabet and Through Enunciation to Phonation for Non-Native Speakers", "a": "Xinyi (Ada) Liu", "y": 2024, "h": "2024/xinyi-liu/", "k": ["Curriculum", "Diction"]}, {"t": "Undergraduate Sopranos Report Lower Rosenberg Self-Esteem Scale Scores Than Mezzos and Altos", "a": "Anissa Perona", "y": 2024, "h": "2024/anissa-perona/", "k": ["Anxiety and wellbeing", "Curriculum", "Repertoire and fach"]}, {"t": "Examining the Impact of Individual Voice Lesson Instruction on Student and Teacher-Perceived Self-Efficacy", "a": "Phatcharaporn (Petch) Chirachitra", "y": 2025, "h": "2025/phatcharaporn-chirachitra/", "k": ["Anxiety and wellbeing", "In the studio"]}, {"t": "Black People Feel: A Mixed-Method Study on Representation, Belonging, and Bias for Black Musical Theatre Students and Voice Teachers in U.S. BFA Musical Theatre Programs", "a": "Kanisha Kellum", "y": 2025, "h": "2025/kanisha-kellum/", "k": ["Curriculum", "Equity and identity"]}, {"t": "Gender Quality in Musical Theatre Singing: Disagreement Between Singer and Listener Perception", "a": "Rachel Klippel", "y": 2025, "h": "2025/rachel-klippel/", "k": ["Equity and identity", "Perception", "Style and genre"]}, {"t": "Respiration Analysis and Self/Expert Perceived Vocal Effort of a Singer With a Lower-Limb Disability", "a": "Joseph (Joey) Nicoletti", "y": 2025, "h": "2025/joseph-nicoletti/", "k": ["Access and disability", "Breath", "Perception"]}, {"t": "Music Performance Anxiety in the Vocal Audition: Heart Rate, Singer Experience, and Panelist Perception", "a": "Brianna Meikle", "y": 2026, "h": "2026/brianna-meikle/", "k": ["Anxiety and wellbeing", "Auditions and performance", "Health", "Perception"]}, {"t": "Somatic Practice and Group Improvisation as Pathways to Artistic Risk-Taking in Singers", "a": "Michal Nissimoff", "y": 2026, "h": "2026/michal-nissimoff/", "k": ["Somatic work"]}, {"t": "Animal Mimicry in the Voice Studio: An Acoustic, Perceptual, and Experiential Comparison of Vocal Exercises", "a": "Morgan Pay Staley", "y": 2026, "h": "2026/morgan-pay/", "k": ["Acoustics", "In the studio", "Perception"]}]};
+const D = {"nodes": [{"id": "Style and genre", "n": 11, "c": "#6B3A65"}, {"id": "In the studio", "n": 10, "c": "#B8541C"}, {"id": "Curriculum", "n": 9, "c": "#2F6B5E"}, {"id": "Acoustics", "n": 8, "c": "#8A5A2B"}, {"id": "Anxiety and wellbeing", "n": 7, "c": "#3D5A80"}, {"id": "Breath", "n": 7, "c": "#7A8B72"}, {"id": "Equity and identity", "n": 6, "c": "#9C3D54"}, {"id": "Perception", "n": 5, "c": "#4F6D7A"}, {"id": "Health", "n": 3, "c": "#A8762C"}, {"id": "Cross-training", "n": 3, "c": "#5B4B8A"}, {"id": "Diction", "n": 3, "c": "#2E7D6B"}, {"id": "Motor learning", "n": 3, "c": "#A14D7B"}, {"id": "Repertoire and fach", "n": 3, "c": "#55702F"}, {"id": "Ethics and scope", "n": 2, "c": "#8C4A3B"}, {"id": "Access and disability", "n": 2, "c": "#3F5E8C"}, {"id": "Somatic work", "n": 2, "c": "#6B3A65"}, {"id": "Auditions and performance", "n": 1, "c": "#B8541C"}], "links": [{"s": "Health", "t": "Style and genre", "w": 2}, {"s": "Acoustics", "t": "Breath", "w": 3}, {"s": "Acoustics", "t": "In the studio", "w": 2}, {"s": "Anxiety and wellbeing", "t": "Breath", "w": 2}, {"s": "Anxiety and wellbeing", "t": "In the studio", "w": 4}, {"s": "Breath", "t": "In the studio", "w": 2}, {"s": "Breath", "t": "Style and genre", "w": 2}, {"s": "Cross-training", "t": "Curriculum", "w": 2}, {"s": "Cross-training", "t": "Style and genre", "w": 2}, {"s": "Curriculum", "t": "Style and genre", "w": 3}, {"s": "Anxiety and wellbeing", "t": "Curriculum", "w": 2}, {"s": "Acoustics", "t": "Perception", "w": 2}, {"s": "Acoustics", "t": "Style and genre", "w": 4}, {"s": "Perception", "t": "Style and genre", "w": 2}, {"s": "Ethics and scope", "t": "In the studio", "w": 2}, {"s": "Diction", "t": "Style and genre", "w": 2}, {"s": "Acoustics", "t": "Cross-training", "w": 2}, {"s": "Curriculum", "t": "Equity and identity", "w": 3}, {"s": "Equity and identity", "t": "Style and genre", "w": 2}], "entries": [{"t": "When Things Get Rough: Rough Vocal Effects in the Musical Theatre Voice Studio", "a": "Cassi Mikat", "y": 2022, "h": "/archive/2022/cassi-mikat/", "k": ["Health", "In the studio", "Style and genre"]}, {"t": "Fight, Flight, or Fault: Physiological and Emotional Impacts of Trauma on Singers", "a": "Kristina Newman", "y": 2022, "h": "/archive/2022/kristina-newman/", "k": ["Acoustics", "Anxiety and wellbeing", "Breath", "In the studio"]}, {"t": "The Triple Threat Tango: Historical and Physiological Perspectives on the Disconnect Between Musical Theater Vocal and Dance Pedagogies", "a": "William Pazdziora", "y": 2022, "h": "/archive/2022/william-pazdziora/", "k": ["Breath", "Cross-training", "Curriculum", "Style and genre"]}, {"t": "Posture and Respiration for Singing: Increased Total Lung Volume on Inspiration with Empowered Postural Positions", "a": "April Ball", "y": 2023, "h": "/archive/2023/april-ball/", "k": ["Breath"]}, {"t": "Overwhelming Prevalence of Music Performance Anxiety in Conservatory Musical Theatre Singers: Associated Symptoms", "a": "Esther Bertain", "y": 2023, "h": "/archive/2023/esther-bertain/", "k": ["Anxiety and wellbeing", "Curriculum"]}, {"t": "Vibrato in Contemporary Commercial Music Singing: Emotional Activity Correlation with Vibrato Extent in Undergraduate Female-Identifying Pop Singers", "a": "Yu Hin Bryan Chan", "y": 2023, "h": "/archive/2023/yu-hin-bryan-chan/", "k": ["Acoustics", "Perception", "Style and genre"]}, {"t": "Voice Teaching Within a Student's Window of Tolerance: Upholding an Ethical Scope of Practice", "a": "Sarah DeYong", "y": 2023, "h": "/archive/2023/sarah-deyong/", "k": ["Anxiety and wellbeing", "Ethics and scope", "In the studio"]}, {"t": "The studio class as a modality for teaching anatomy and physiology to singers", "a": "Meredith Eib", "y": 2022, "h": "/archive/2022/meredith-eib/", "k": ["Curriculum", "In the studio"]}, {"t": "Singing in Mandarin: Guide for Mandarin and Non-Mandarin-Speaking Singers Using the International Phonetic Alphabet, the Chinese Phonetic Scheme, and Through Enunciation to Phonation", "a": "Chu Hu", "y": 2023, "h": "/archive/2023/chu-hu/", "k": ["Diction", "Style and genre"]}, {"t": "K-Pop Singing Pedagogy Through Linguistics: A Voice Teacher's Guide to Cultural Influence", "a": "Alice Jihyun Kim", "y": 2023, "h": "/archive/2023/alice-jihyun-kim/", "k": ["Diction", "Style and genre"]}, {"t": "Measuring the Effects of Playing Clarinet on Singing: A Case Study on Nasalance", "a": "Alexander Lyons", "y": 2023, "h": "/archive/2023/alexander-lyons/", "k": ["Acoustics", "Cross-training"]}, {"t": "Music Preference Impact on Practice Time and Memory Recall of Melody, Rhythm, and Lyrics", "a": "Elza Ann Manoj", "y": 2023, "h": "/archive/2023/elza-ann-manoj/", "k": ["Motor learning"]}, {"t": "Universal Design for Voice Teaching: Including Singers with Autistic Ways of Being in the Studio", "a": "Adam Moxness", "y": 2023, "h": "/archive/2023/adam-moxness/", "k": ["Access and disability", "In the studio"]}, {"t": "Including Hip-Hop Rap Vocal Technique in Musical Theater Degree Curricula to Enact Diversity, Equity, and Inclusion Policies and Train 21st-Century Singers", "a": "Carol Denise Smith Sparkman", "y": 2023, "h": "/archive/2023/carol-denise-smith-sparkman/", "k": ["Curriculum", "Equity and identity", "Style and genre"]}, {"t": "Black Intersectional Identity and Vocal Expectations: Incompatibility Between Musical Theatre Voice Training and Industry Standards for Black Singers", "a": "Rose Van Dyne", "y": 2023, "h": "/archive/2023/rose-van-dyne/", "k": ["Curriculum", "Equity and identity"]}, {"t": "Risk, Need, Responsivity: Adapting a Model for Assessment and Training of Singers with Cultural Competency Through the Lens of Chicana Singers", "a": "Haley Mendez Wawro", "y": 2023, "h": "/archive/2023/haley-mendez-wawro/", "k": ["Equity and identity", "Ethics and scope", "In the studio"]}, {"t": "The Effects of Pelvic Floor-Related Cues on the Experienced Ease of Singing", "a": "Lyndsee Bell", "y": 2024, "h": "/archive/2024/lyndsee-bell/", "k": ["Anxiety and wellbeing", "Breath", "In the studio", "Somatic work"]}, {"t": "The Relationship Between Inspiration Duration, Total Lung Volume, and Resting Expiratory Level Utilizing Respiratory Inductance Plethysmography", "a": "Natalie Ehrensbeck", "y": 2024, "h": "/archive/2024/natalie-ehrensbeck/", "k": ["Acoustics", "Breath"]}, {"t": "Cultural Responsiveness in the Vocal Studio: A Mixed Method Study on the Relationship Between Musical Theater Repertoire and Practice Time in Collegiate Latinx Singers", "a": "Mariana Elos\u00faa Serna", "y": 2024, "h": "/archive/2024/mariana-elosua-serna/", "k": ["Equity and identity", "Motor learning", "Repertoire and fach"]}, {"t": "Evolution of Tenor and Baritone Voice Classification in Musical Theater: A Tessitura Analysis from Original Productions to Contemporary Revivals", "a": "Sandy Sahar Gooen", "y": 2024, "h": "/archive/2024/sandy-sahar-gooen/", "k": ["Repertoire and fach", "Style and genre"]}, {"t": "Using Spectral Moment Analysis to Quantify Acoustic Differences Between Opera and Musical Theatre Styles in Soprano Voices", "a": "Violet Joy Hansen", "y": 2024, "h": "/archive/2024/violet-joy-hansen/", "k": ["Acoustics", "Style and genre"]}, {"t": "Comparative Analysis of Teaching Methods for Mandarin Song Diction: Evaluating the Effectiveness of the International Phonetic Alphabet and Through Enunciation to Phonation for Non-Native Speakers", "a": "Xinyi (Ada) Liu", "y": 2024, "h": "/archive/2024/xinyi-liu/", "k": ["Curriculum", "Diction"]}, {"t": "Undergraduate Sopranos Report Lower Rosenberg Self-Esteem Scale Scores Than Mezzos and Altos", "a": "Anissa Perona", "y": 2024, "h": "/archive/2024/anissa-perona/", "k": ["Anxiety and wellbeing", "Curriculum", "Repertoire and fach"]}, {"t": "Examining the Impact of Individual Voice Lesson Instruction on Student and Teacher-Perceived Self-Efficacy", "a": "Phatcharaporn (Petch) Chirachitra", "y": 2025, "h": "/archive/2025/phatcharaporn-chirachitra/", "k": ["Anxiety and wellbeing", "In the studio"]}, {"t": "Black People Feel: A Mixed-Method Study on Representation, Belonging, and Bias for Black Musical Theatre Students and Voice Teachers in U.S. BFA Musical Theatre Programs", "a": "Kanisha Kellum", "y": 2025, "h": "/archive/2025/kanisha-kellum/", "k": ["Curriculum", "Equity and identity"]}, {"t": "Gender Quality in Musical Theatre Singing: Disagreement Between Singer and Listener Perception", "a": "Rachel Klippel", "y": 2025, "h": "/archive/2025/rachel-klippel/", "k": ["Equity and identity", "Perception", "Style and genre"]}, {"t": "Respiration Analysis and Self/Expert Perceived Vocal Effort of a Singer With a Lower-Limb Disability", "a": "Joseph (Joey) Nicoletti", "y": 2025, "h": "/archive/2025/joseph-nicoletti/", "k": ["Access and disability", "Breath", "Perception"]}, {"t": "Impact of Cell Phone Pick-Ups on Memorization in Singing", "a": "Merced Stratton", "y": 2024, "h": "/archive/2024/merced-stratton/", "k": ["In the studio", "Motor learning"]}, {"t": "The Effects of Cross-Training Experience on Voice Quality", "a": "Jayson Banton", "y": 2025, "h": "/archive/2025/jayson-banton/", "k": ["Acoustics", "Cross-training", "Curriculum", "Style and genre"]}, {"t": "Respiratory Coordination and Acoustic Vocal Quality of Two Opera Singers through the Second and Third Trimesters of Pregnancy", "a": "Marissa Fieland", "y": 2025, "h": "/archive/2025/marissa-fieland/", "k": ["Acoustics", "Breath", "Health", "Style and genre"]}, {"t": "Music Performance Anxiety in the Vocal Audition: Heart Rate, Singer Experience, and Panelist Perception", "a": "Brianna Meikle", "y": 2026, "h": "/archive/2026/brianna-meikle/", "k": ["Anxiety and wellbeing", "Auditions and performance", "Health", "Perception"]}, {"t": "Somatic Practice and Group Improvisation as Pathways to Artistic Risk-Taking in Singers", "a": "Michal Nissimoff", "y": 2026, "h": "/archive/2026/michal-nissimoff/", "k": ["Somatic work"]}, {"t": "Animal Mimicry in the Voice Studio: An Acoustic, Perceptual, and Experiential Comparison of Vocal Exercises", "a": "Morgan Pay Staley", "y": 2026, "h": "/archive/2026/morgan-pay/", "k": ["Acoustics", "In the studio", "Perception"]}]};
 const svg = document.getElementById('tm'), W = 760, H = 620;
 const NS = 'http://www.w3.org/2000/svg';
 const byId = {}; D.nodes.forEach(n => byId[n.id] = n);
@@ -363,9 +379,9 @@ const titleEl = document.getElementById('tm-title'), subEl = document.getElement
 
 function show(n){
   const sel = n ? D.entries.filter(e => e.k.indexOf(n.id) >= 0) : D.entries;
-  titleEl.textContent = n ? n.id : 'All theses';
-  titleEl.style.color = n ? n.c : '#2d2a2c';
-  subEl.textContent = n ? (sel.length + (sel.length===1?' thesis':' theses') +
+  titleEl.textContent = n ? n.id : 'All research';
+  titleEl.style.color = n ? n.c : '';
+  subEl.textContent = n ? (sel.length + (sel.length===1?' study':' studies') +
       (pinned===n ? '. Click the topic again to release.' : '')) :
       'Hover or click a topic to see its research here.';
   listEl.innerHTML = sel.sort((a,b) => b.y-a.y || a.a.localeCompare(b.a)).map(e =>
@@ -378,8 +394,8 @@ svg.addEventListener('click', () => { pinned = null; show(null); });
 show(null);
 })();
 </script>
-<p>Every topic in the catalog, sized by how many theses carry it and joined when two or more theses carry both. The heavier the line, the more they share. This is the shape of the program: where the work clusters, and which questions keep arriving together.</p>
-<p>Pairs shared by a single thesis are left out, so the map shows established overlaps rather than every coincidence. <a href="../archive/catalog.html">Browse the full catalog</a> to search by word, author or topic.</p>
+<p>Every topic in the catalog, sized by how many studies carry it and joined when two or more studies carry both. The heavier the line, the more they share. This is the shape of the program: where the work clusters, and which questions keep arriving together.</p>
+<p>Pairs shared by a single study are left out, so the map shows established overlaps rather than every coincidence. <a href="../archive/catalog.html">Browse the full catalog</a> to search by word, author or topic.</p>
 
 
 

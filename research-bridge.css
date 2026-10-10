@@ -10,10 +10,10 @@
 
 :root {
     /* The research archive uses these names (from its current styles.css) */
-    --primary-color: var(--color-night);
+    --primary-color: var(--color-plum);
     --text-color: var(--color-espresso);
-    --text-muted: var(--color-warm-gray);
-    --accent-color: var(--color-bronze);
-    --border-color: var(--color-taupe);
+    --text-muted: #7a716b;
+    --accent-color: var(--color-sage);
+    --border-color: var(--color-linen);
     --bg-light: var(--color-cream);
 }
