@@ -265,93 +265,6 @@ background: #0b1d33;
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
-<!-- Courtesy gate. A sign on the door, not a lock.
-
-     The pages are static files, so their text is in the downloaded HTML whether or not
-     this prompt has been answered. It keeps casual visitors out while the archive is
-     unfinished; it does not protect anything. The real protection is editorial: authors'
-     abstracts stay off the site until each author opts in.
-
-     The overlay is built in JavaScript and attached directly to <body>, because Quarto
-     wraps injected markup in its own container, which the hide rule would otherwise catch.
-
-     Remove this file from _quarto.yml (include-before-body) when the archive opens. -->
-
-<meta name="robots" content="noindex, nofollow">
-
-<style>
-  html.gated body > *:not(#gate) { display: none !important; }
-  #gate { position: fixed; inset: 0; z-index: 9999; background: #fbf8f3;
-          display: flex; align-items: center; justify-content: center; padding: 1.5rem; }
-  #gate .box { max-width: 30rem; font-family: Inter, system-ui, sans-serif; color: #2d2a2c; }
-  #gate h1 { font-size: 1.3rem; margin: 0 0 .6rem; font-weight: 600; }
-  #gate p { font-size: .95rem; line-height: 1.5; color: #6b645b; margin: 0 0 1.1rem; }
-  #gate form { display: flex; gap: .5rem; flex-wrap: wrap; }
-  #gate input { flex: 1 1 14rem; font: inherit; font-size: .95rem; padding: .55rem .7rem;
-                border: 1px solid #d8d0c5; border-radius: 4px; background: #fff; }
-  #gate button { font: inherit; font-size: .95rem; font-weight: 600; padding: .55rem 1.1rem;
-                 border: 0; border-radius: 4px; background: #6B3A65; color: #fff;
-                 cursor: pointer; }
-  #gate .err { color: #b8541c; font-size: .9rem; min-height: 1.2em; margin: .6rem 0 0; }
-</style>
-
-<script>
-(function () {
-  var KEY = 'vpra-gate';
-  var HASH = '9db555d65add375c858aa7ce699825a47c04b7f9427c72a2a4410f3200e0afd5';
-  var root = document.documentElement;
-
-  try { if (sessionStorage.getItem(KEY) === HASH) return; } catch (e) {}
-  root.classList.add('gated');
-
-  function sha256(text) {
-    return crypto.subtle.digest('SHA-256', new TextEncoder().encode(text)).then(function (buf) {
-      return Array.from(new Uint8Array(buf))
-        .map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
-    });
-  }
-
-  function build() {
-    if (document.getElementById('gate')) return;
-    var gate = document.createElement('div');
-    gate.id = 'gate';
-    gate.innerHTML =
-      '<div class="box">' +
-      '<h1>Vocal Pedagogy Research Archive</h1>' +
-      '<p>This archive is being built and is not yet open. If you are here from the PAVA ' +
-      'symposium or from the Boston Conservatory program, enter the word you were given.</p>' +
-      '<form><input type="password" autocomplete="off" aria-label="Access word" ' +
-      'placeholder="Access word"><button type="submit">Enter</button></form>' +
-      '<p class="err" role="status"></p>' +
-      '</div>';
-    document.body.appendChild(gate);
-
-    var form = gate.querySelector('form');
-    var input = gate.querySelector('input');
-    var err = gate.querySelector('.err');
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      sha256(input.value.trim()).then(function (h) {
-        if (h === HASH) {
-          try { sessionStorage.setItem(KEY, HASH); } catch (e) {}
-          root.classList.remove('gated');
-          gate.remove();
-        } else {
-          err.textContent = 'That is not the word. Check the spelling and capitals.';
-          input.select();
-        }
-      });
-    });
-    input.focus();
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', build);
-  } else {
-    build();
-  }
-})();
-</script>
 
 
 
@@ -434,7 +347,7 @@ background: #0b1d33;
 <p>The heatmap below tracks within-participant paired effect sizes (Cohen’s d) across three stages. Blue = animal session produced a higher value; red = vowel session produced a higher value. Read left to right within each pair to see what persists, what fades, and what emerges. The last two columns (“some” and “where”) are not sequential steps; they are two register-specific views of the same song performance. “Some” captures the lower register (~260 Hz) and “where” captures the upper register (~520 Hz) within each “Somewhere Over the Rainbow” recording.</p>
 <p><strong>A note on paired d:</strong> These are within-participant comparisons where each singer serves as their own control. Paired d values are typically smaller than pooled d values (e.g., Cow HNR paired d = +2.56 vs.&nbsp;pooled d = +3.91) because they control for individual differences. The direction and interpretation are the same.</p>
 <div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:33.053354Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:33.053226Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.926388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.926032Z&quot;}" data-execution_count="2">
-<div id="fig-chain-heatmap" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="2" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:33.053354Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:33.053226Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.926388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.926032Z&quot;}">
+<div id="fig-chain-heatmap" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:33.053354Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:33.053226Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.926388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.926032Z&quot;}" data-execution_count="2">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-chain-heatmap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output cell-output-display">
@@ -549,7 +462,7 @@ if (outputEl) {{
 <h4 class="anchored" data-anchor-id="spectral-profiles-through-the-chain">Spectral Profiles Through the Chain</h4>
 <p>The LTAS (Long-Term Average Spectrum) figures show what the heatmap numbers look like acoustically. The first figure below shows the <strong>baseline</strong> Somewhere (pre-exercise) at both registers, confirming that Sessions A and B started from the same spectral profile. The three per-pair figures then show mimic, exercise, and post-exercise Somewhere. The Somewhere panels use pitch-conditioned LTAS: only the frames where the singer is in the target register contribute to the spectral average. Blue = animal session (A), red = vowel session (B).</p>
 <div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:35.928016Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:35.927909Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.939994Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.939775Z&quot;}" data-execution_count="4">
-<div id="fig-ltas-chain" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="4" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:35.928016Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:35.927909Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.939994Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.939775Z&quot;}">
+<div id="fig-ltas-chain" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:35.928016Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:35.927909Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:35.939994Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:35.939775Z&quot;}" data-execution_count="4">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ltas-chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output cell-output-display">
@@ -658,7 +571,7 @@ Figure&nbsp;3
 <h4 class="anchored" data-anchor-id="avqi-prepost">AVQI Pre/Post</h4>
 <p>The Acoustic Voice Quality Index (AVQI) was measured from sustained vowel + continuous speech recordings before and after each session. Neither protocol harms overall voice quality.</p>
 <div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:38.330296Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:38.330203Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:39.676044Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:39.675693Z&quot;}" data-execution_count="6">
-<div id="fig-avqi" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="6" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:38.330296Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:38.330203Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:39.676044Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:39.675693Z&quot;}">
+<div id="fig-avqi" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution="{&quot;iopub.execute_input&quot;:&quot;2026-03-17T01:05:38.330296Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-17T01:05:38.330203Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-17T01:05:39.676044Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-17T01:05:39.675693Z&quot;}" data-execution_count="6">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-avqi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output cell-output-display">
