@@ -187,6 +187,12 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
     min-height: 0;
     gap: 1.25rem;
   }
+  /* Only the results list may absorb or give up space. Without this the cover
+     and the disclosure shrink in a frame shorter than the content and clip
+     their text silently; pinned, a too-short frame scrolls instead, which is
+     a visible failure rather than a hidden one. */
+  html.embedded .cover,
+  html.embedded .built-with,
   html.embedded .find > div:first-of-type { flex: 0 0 auto; }
   html.embedded .find #results {
     flex: 1 1 auto;
