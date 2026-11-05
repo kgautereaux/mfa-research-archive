@@ -166,7 +166,16 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
      letting the search section grow puts the leftover height into the results
      list rather than leaving it blank beneath the page. No constants, nothing
      to re-measure when the copy changes. */
-  html.embedded #quarto-content { display: flex; flex-direction: column; }
+  html.embedded #quarto-content {
+    display: flex;
+    flex-direction: column;
+    /* Quarto's min-height is a floor, so the container simply grew past it and
+       flex had no space to distribute. A fixed height gives the column a
+       ceiling, so the search section shrinks into what is left. */
+    height: 100vh;
+    min-height: 0;
+  }
+  html.embedded .find { padding-block: 40px; }
   html.embedded .find {
     flex: 1 1 auto;
     display: flex;
