@@ -159,8 +159,19 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
    it is a frame just wide enough to keep the full layout. */
 @media (max-width: 767px) {
   html.embedded .tm-wrap,
-  html.embedded .home-about { display: none !important; }
-  html.embedded .find #results { max-height: 240px; }
+  html.embedded .home-about,
+  html.embedded .cover .cta { display: none !important; }
+  /* Google Sites derives the frame's height from its width, and inside the frame
+     that height is this page's 100vh. Giving the results list exactly the leftover
+     space makes the page fill the frame at any width: no inner scroll, and no band
+     of white underneath. 1101px is the measured height of everything else at 360,
+     the widest the rest of the page ever gets, so erring here leaves a small gap
+     rather than a scrollbar. */
+  html.embedded .find #results {
+    height: max(120px, calc(100vh - 1101px));
+    max-height: none;
+    overflow-y: auto;
+  }
 }
 html.embedded body { background: #fff; }
 </style>
