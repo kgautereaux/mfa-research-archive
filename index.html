@@ -184,7 +184,9 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    min-height: 0;
+    /* min-height stays auto on purpose. At 0 this section compresses below its own
+       contents in a short frame and clips the search box; at auto the results
+       list's own 120px floor sets the limit and the frame scrolls instead. */
     gap: 1.25rem;
   }
   /* Only the results list may absorb or give up space. Without this the cover
