@@ -161,21 +161,27 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
   html.embedded .tm-wrap,
   html.embedded .home-about,
   html.embedded .cover .cta { display: none !important; }
-  /* Google Sites derives the frame's height from its width, and inside the frame
-     that height is this page's 100vh. Giving the results list exactly the leftover
-     space makes the page fill the frame at any width: no inner scroll, and no band
-     of white underneath. 1101px is the measured height of everything else at 360,
-     the widest the rest of the page ever gets, so erring here leaves a small gap
-     rather than a scrollbar. */
+  /* Quarto puts min-height:100vh on #quarto-content, so the frame is filled
+     whether or not the content reaches the bottom. Making that a column and
+     letting the search section grow puts the leftover height into the results
+     list rather than leaving it blank beneath the page. No constants, nothing
+     to re-measure when the copy changes. */
+  html.embedded #quarto-content { display: flex; flex-direction: column; }
+  html.embedded .find {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    gap: 1.25rem;
+  }
+  html.embedded .find > div:first-of-type { flex: 0 0 auto; }
   html.embedded .find #results {
-    height: max(120px, calc(100vh - 1101px));
+    flex: 1 1 auto;
+    min-height: 120px;
     max-height: none;
+    height: auto;
     overflow-y: auto;
   }
-  /* 1101 is the height of the rest of the page at 360 wide, the widest it ever
-     gets. It is a safe fallback if the script below does not run, but it leaves a
-     gap at wider narrow frames, where the text wraps less. fitNarrow() measures
-     the real figure instead. */
 }
 html.embedded body { background: #fff; }
 </style>
@@ -186,25 +192,8 @@ html.embedded body { background: #fff; }
   try { framed = window.self !== window.top; } catch (e) { framed = true; }
   if (!framed && !/[?&]embed=1(&|$)/.test(location.search)) return;
   document.documentElement.classList.add('embedded');
-  // Google Sites gives the frame a height derived from its width, and inside the
-  // frame that height is 100vh. Measuring the rest of the page and handing the
-  // remainder to the results list makes the page fill the frame exactly at any
-  // narrow width, with no constant to go stale when the copy changes.
-  function fitNarrow() {
-    var r = document.getElementById('results');
-    if (!r) return;
-    if (window.innerWidth >= 768) { r.style.height = ''; return; }
-    r.style.height = '0px';
-    var rest = document.body.scrollHeight;
-    r.style.height = Math.max(120, window.innerHeight - rest) + 'px';
-  }
-  window.addEventListener('load', fitNarrow);
-  window.addEventListener('resize', fitNarrow);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitNarrow);
-
   // In a frame a plain link would load the archive inside the host page.
   document.addEventListener('DOMContentLoaded', function () {
-    fitNarrow();
     document.querySelectorAll('a[href]').forEach(function (a) {
       var h = a.getAttribute('href') || '';
       if (h.charAt(0) === '#' || h.indexOf('mailto:') === 0) return;
