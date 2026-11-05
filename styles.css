@@ -233,6 +233,17 @@ th { font-weight: 600; text-transform: uppercase; font-size: 0.78rem; letter-spa
 .home-about p { margin: 0 0 1.5rem; }
 .home-about a { color: var(--ink); }
 
+/* Stands at the foot of the front page rather than inside the about block, so the
+   disclosure survives the narrow-width trim and shows at every width. */
+.built-with {
+  border-top: 1px solid var(--rule);
+  padding-block: 20px 36px;
+  font-size: 0.82rem;
+  color: var(--dim);
+  margin: 0;
+}
+.built-with a { color: var(--ink); }
+
 @media (max-width: 860px) {
   .cover-grid, .cover .tm-wrap, .feat, .find, .home-about { grid-template-columns: 1fr; }
   .find { gap: 1.5rem; }
