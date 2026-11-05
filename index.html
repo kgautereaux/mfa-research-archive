@@ -147,6 +147,10 @@ html.embedded footer.footer,
 html.embedded .home-band { display: none !important; }
 html.embedded #quarto-content.page-navbar { padding-top: 0 !important; }
 html.embedded .cover { padding-top: 1rem; }
+/* The search results are the biggest source of height variance between a phone
+   and the host's 820px column, and a framed page cannot ask the host to resize.
+   Capping them holds the frame to one height that fits both. */
+html.embedded .find #results { max-height: 320px; overflow-y: auto; }
 html.embedded body { background: #fff; }
 </style>
 <script>
