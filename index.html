@@ -151,6 +151,17 @@ html.embedded .cover { padding-top: 1rem; }
    and the host's 820px column, and a framed page cannot ask the host to resize.
    Capping them holds the frame to one height that fits both. */
 html.embedded .find #results { max-height: 320px; overflow-y: auto; }
+/* Narrow frames. Google Sites derives the box height from its width, so as the
+   column narrows the box gets shorter while a stacked layout gets taller. Below
+   the width where the map stops being usable, the map and the about block come
+   off and the results tighten, which is what lets one ratio cover every width.
+   The breakpoint is 768 rather than 640 because the worst case is not the phone,
+   it is a frame just wide enough to keep the full layout. */
+@media (max-width: 767px) {
+  html.embedded .tm-wrap,
+  html.embedded .home-about { display: none !important; }
+  html.embedded .find #results { max-height: 240px; }
+}
 html.embedded body { background: #fff; }
 </style>
 <script>
