@@ -137,6 +137,36 @@ background: #0b1d33;
 
 
 
+<style>
+/* Embedded mode. The Berklee program site frames this very page, so the archive's
+   front page and the Berklee page are one file and can never drift apart. What is
+   hidden is only the site chrome and the featured projects, which name three
+   students and do not belong on an institutional page while permissions are open. */
+html.embedded #quarto-header,
+html.embedded footer.footer,
+html.embedded .home-band { display: none !important; }
+html.embedded #quarto-content.page-navbar { padding-top: 0 !important; }
+html.embedded .cover { padding-top: 1rem; }
+html.embedded body { background: #fff; }
+</style>
+<script>
+(function () {
+  // Runs during parse so the chrome never paints before it is hidden.
+  var framed = true;
+  try { framed = window.self !== window.top; } catch (e) { framed = true; }
+  if (!framed && !/[?&]embed=1(&|$)/.test(location.search)) return;
+  document.documentElement.classList.add('embedded');
+  // In a frame a plain link would load the archive inside the host page.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      var h = a.getAttribute('href') || '';
+      if (h.charAt(0) === '#' || h.indexOf('mailto:') === 0) return;
+      a.target = '_blank';
+      a.rel = 'noopener';
+    });
+  });
+})();
+</script>
 <section class="cover">
   <div class="cover-grid">
     <div class="cover-text">
