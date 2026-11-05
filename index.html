@@ -184,9 +184,13 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    /* min-height stays auto on purpose. At 0 this section compresses below its own
-       contents in a short frame and clips the search box; at auto the results
-       list's own 120px floor sets the limit and the frame scrolls instead. */
+    /* min-height:0 so the results list can shrink to its 120px floor and the page
+       fits the frame. At auto this section refuses to shrink at all, the list
+       expands to its natural height, and the minimum balloons from 1270 to 2485.
+       Below the minimum the section does under-size and its contents spill, but
+       the page scrolls so nothing is unreachable, and the chosen ratio keeps
+       every real frame above it. */
+    min-height: 0;
     gap: 1.25rem;
   }
   /* Only the results list may absorb or give up space. Without this the cover
