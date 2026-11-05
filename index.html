@@ -172,6 +172,10 @@ html.embedded .find #results { max-height: 320px; overflow-y: auto; }
     max-height: none;
     overflow-y: auto;
   }
+  /* 1101 is the height of the rest of the page at 360 wide, the widest it ever
+     gets. It is a safe fallback if the script below does not run, but it leaves a
+     gap at wider narrow frames, where the text wraps less. fitNarrow() measures
+     the real figure instead. */
 }
 html.embedded body { background: #fff; }
 </style>
@@ -182,8 +186,25 @@ html.embedded body { background: #fff; }
   try { framed = window.self !== window.top; } catch (e) { framed = true; }
   if (!framed && !/[?&]embed=1(&|$)/.test(location.search)) return;
   document.documentElement.classList.add('embedded');
+  // Google Sites gives the frame a height derived from its width, and inside the
+  // frame that height is 100vh. Measuring the rest of the page and handing the
+  // remainder to the results list makes the page fill the frame exactly at any
+  // narrow width, with no constant to go stale when the copy changes.
+  function fitNarrow() {
+    var r = document.getElementById('results');
+    if (!r) return;
+    if (window.innerWidth >= 768) { r.style.height = ''; return; }
+    r.style.height = '0px';
+    var rest = document.body.scrollHeight;
+    r.style.height = Math.max(120, window.innerHeight - rest) + 'px';
+  }
+  window.addEventListener('load', fitNarrow);
+  window.addEventListener('resize', fitNarrow);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitNarrow);
+
   // In a frame a plain link would load the archive inside the host page.
   document.addEventListener('DOMContentLoaded', function () {
+    fitNarrow();
     document.querySelectorAll('a[href]').forEach(function (a) {
       var h = a.getAttribute('href') || '';
       if (h.charAt(0) === '#' || h.indexOf('mailto:') === 0) return;
